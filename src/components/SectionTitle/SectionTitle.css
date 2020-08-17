@@ -9,13 +9,13 @@
   position: absolute;
   height: 4px;
   width: 150px;
-  background-color: #fbbf12;
+  background-color: #de9263;
   left: 2px;
   bottom: -10px;
 }
 
 .section-title.green {
-  color: #00a14b;
+  color: #8d1b3d;
 }
 @media (max-width: 576px) {
   .section-title {

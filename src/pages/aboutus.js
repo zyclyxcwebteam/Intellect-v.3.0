@@ -49,7 +49,7 @@ const aboutus = () => {
     <Layout
       showBanner
       active="about"
-      title="About us - ZYCLYX"
+      title="About us"
       description="A Fast-Growing Technology Leader in Artificial Intelligence,automation,bigdata"
     >
       <Container fluid className="hero-banner">
@@ -87,18 +87,18 @@ const aboutus = () => {
       <Container fluid className="py-md-5 py-3 overview-wrapper">
         <Container className="py-md-4 py-2">
           <p>
-            ZYCLYX is the world&apos;s leading automated IT solution provider
-            with a diverse range of solutions aimed to enhance your operating
-            performance. Our expertise includes Robotic Process Automation, AI,
-            OCR, Network Security, Cyber Security, Outsourcing, and other
-            services.
+            INTELLECT Technologies is the world&apos;s leading automated IT
+            solution provider with a diverse range of solutions aimed to enhance
+            your operating performance. Our expertise includes Robotic Process
+            Automation, AI, OCR, Network Security, Cyber Security, Outsourcing,
+            and other services.
           </p>
           <p>
             In 2018, we were established to share our innovative solutions and
             core technology expertise to optimize the customer experience. The
-            team at ZYCLYX provides efficient integrated systems after
-            meticulous evaluation of risks and opportunities which address both
-            short and long term challenges.
+            team at INTELLECT Technologies provides efficient integrated systems
+            after meticulous evaluation of risks and opportunities which address
+            both short and long term challenges.
           </p>
           <p>
             In collaboration with internationally recognized IT solution

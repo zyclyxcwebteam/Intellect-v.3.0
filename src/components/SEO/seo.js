@@ -8,7 +8,7 @@ const SEO = ({ description, title }) => {
         lang: "en",
       }}
       title={title}
-      titleTemplate="%s | ZYCLYX"
+      titleTemplate="INTELLECT | %s"
       meta={[
         {
           name: `description`,

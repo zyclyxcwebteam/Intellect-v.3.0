@@ -19,7 +19,7 @@ export default () => {
       <Layout
         showBanner
         active="home"
-        title="Zyclyx consulting services PVT.Ltd"
+        title="INTELLECT Technologies"
         description="providing IT services"
       >
         <ImageCarousel />
@@ -29,7 +29,7 @@ export default () => {
               <Col className="col-lg-3 col-12 d-flex justify-content-center align-items-center text-center">
                 <div>
                   <h2 className="text-center welcome-title">Welcome to</h2>
-                  <h2 className="text-center brand">ZYCLYX</h2>
+                  <h2 className="text-center brand">INTELLECT</h2>
                 </div>
               </Col>
               <Col className="col-lg-9 col-12 d-flex align-items-center">
@@ -41,8 +41,8 @@ export default () => {
                   to outperform their competition. Our deep expertise in the
                   area of process automation, infrastructure and application
                   management is our strategic asset. Whether you want to improve
-                  your business efficiency or accelerate revenue growth, ZYCLYX
-                  will go an extra mile to get you there.
+                  your business efficiency or accelerate revenue growth,
+                  INTELLECT Technologies will go an extra mile to get you there.
                 </p>
               </Col>
             </Row>

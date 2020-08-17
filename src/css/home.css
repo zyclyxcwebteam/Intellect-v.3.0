@@ -16,12 +16,12 @@
   font-display: swap;
 }
 .welcome-title {
-  color: #00a14b;
-  font-size: 2rem;
+  color: #8d1b3d;
+  font-size: 1.5rem;
 }
 .brand {
   font-family: "NeuropoliticalRg-Regular", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .welcome-text {
   font-size: 1.2rem;
@@ -33,10 +33,10 @@
 }
 .poc-title {
   font-size: 1.5rem;
-  color: #00a14b;
+  color: #8d1b3d;
 }
 .poc-title-bg {
-  color: #111b33;
+  color: #19132a;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -49,6 +49,7 @@
   top: -20px;
   left: 0px;
   color: #c5c5c591;
+  color: rgba(141, 27, 61, 0.2);
   font-family: "Roboto", sans-serif;
 }
 /* our services slider */
@@ -59,7 +60,7 @@
 .service-title {
   font-size: 3rem;
   font-weight: 600;
-  color: #00a14b;
+  color: #8d1b3d;
 }
 .service-title span {
   font-size: 2rem;
@@ -69,7 +70,7 @@
   height: 15px;
   width: 15px;
   margin: 0 0.5rem;
-  background-color: #00a14b;
+  background-color: #481328;
   border-radius: 50%;
   bottom: -30px;
 }
@@ -80,12 +81,12 @@
 .stat-title {
   font-size: 4rem;
   font-weight: 700;
-  color: #0e1934;
+  color: #19132a;
 }
 
 .stat-caption {
   font-size: 1.2rem;
-  color: #0e1934;
+  color: #19132a;
 }
 
 .stats-wrapper {
@@ -101,7 +102,7 @@
     font-size: 1.5rem;
   }
   .brand {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .poc-title {
     font-size: 1.3rem;

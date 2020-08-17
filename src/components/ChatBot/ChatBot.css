@@ -1,10 +1,7 @@
-.chatbot-wrapper {
-  border: 2px solid green;
-}
 .chatbtn {
   height: 50px;
   width: 50px;
-  background: #fbbf12;
+  background: #de9263;
   color: #fff;
   border-radius: 50%;
   border: none;
@@ -20,7 +17,7 @@
 .iconstyle {
   width: 46px;
   height: 25px;
-  color: white;
+  color: #ffffff;
 }
 .chatbox {
   width: 350px;
@@ -76,7 +73,7 @@
 .messages .message.parker {
   margin: 1rem 1rem 1rem auto;
   border-radius: 1.125rem 1.125rem 0 1.125rem;
-  background-color: #fbbf12;
+  background-color: #481328;
   color: white;
 }
 .messages .message .typing {
@@ -132,7 +129,7 @@
 
 /* new styles */
 .send-chat {
-  color: #00a14b;
+  color: #8d1b3d;
   font-size: 1.5rem;
   border: none;
   background-color: hsl(148, 100%, 96%);
@@ -143,7 +140,7 @@
 .close-chat {
   border: none;
   font-size: 1.5rem;
-  color: #fbbf12;
+  color: #de9263;
   background-color: transparent;
 }
 .close-chat:hover {

@@ -2,7 +2,7 @@
   max-width: 230px;
 }
 .navbar {
-  background-color: #111b33;
+  background-color: #19132a;
 }
 .nav-item > a {
   padding: 1rem;
@@ -13,22 +13,22 @@
 .nav-item a:hover {
   text-decoration: none;
   font-weight: 500;
-  color: #fbbf12;
+  color: #de9263;
 }
 .navbar-nav {
   display: flex;
   align-items: center;
 }
 .service-dropdown.dropdown-menu {
-  background-color: #111b33 !important;
+  background-color: #19132a !important;
   border: none;
   border-radius: 0;
   border-top: 1px solid hsl(222, 50%, 16%);
 }
 .menu-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #00a14b;
+  color: #de9263;
 }
 .service-menu ul {
   padding: 0;
@@ -64,6 +64,6 @@
 }
 
 .nav-item .active {
-  color: #fbbf12;
+  color: #de9263;
   font-weight: 500;
 }

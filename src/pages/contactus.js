@@ -34,16 +34,19 @@ const Contact = () => {
       date: new Date(),
       message: data.message,
       countryCode: phone.code,
-      website: "zyclyx",
+      website: "intellect",
     };
 
-    fetch("https://zyclyx-backend-api.herokuapp.com/business-enquiries", {
-      method: "post",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    })
+    fetch(
+      "https://INTELLECT Technologies-backend-api.herokuapp.com/business-enquiries",
+      {
+        method: "post",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      }
+    )
       .then(res => {
         setSuccess(true);
         return res.json();
@@ -55,13 +58,16 @@ const Contact = () => {
           setSuccess(false);
         }, 6000);
         setSubmitForm(false);
-        fetch("https://zyclyx-email-sender.herokuapp.com/contact", {
-          method: "post",
-          headers: {
-            "Content-type": "application/json",
-          },
-          body: JSON.stringify(payload),
-        })
+        fetch(
+          "https://INTELLECT Technologies-email-sender.herokuapp.com/contact",
+          {
+            method: "post",
+            headers: {
+              "Content-type": "application/json",
+            },
+            body: JSON.stringify(payload),
+          }
+        )
           .then(res => {
             return res.json();
           })
@@ -77,7 +83,7 @@ const Contact = () => {
     <Layout
       showBanner={false}
       active="contact"
-      title="Contact us - ZYCLYX"
+      title="Contact us"
       description="We are happy to assist you with your queries"
     >
       <HeroBanner
@@ -108,8 +114,8 @@ const Contact = () => {
                       <Col sm="9">
                         <h4 className="contact-title">OFFICE</h4>
                         <p className="contact-text">
-                          3rd Floor, Pearl Enclave, Green Valley Road No-5,
-                          Banjara Hills, Hyderabad, Telangana 500034
+                          Commercial Bank Plaza, Level 14, West Bay, P.O 27111,
+                          Doha, Qatar
                         </p>
                       </Col>
                     </Row>
@@ -128,7 +134,7 @@ const Contact = () => {
                       </Col>
                       <Col sm="9">
                         <h4 className="contact-title">CONTACT</h4>
-                        <p className="contact-text">(+91) 40 2354 9363</p>
+                        <p className="contact-text">(+974) 44528242</p>
                       </Col>
                     </Row>
                   </Col>
@@ -146,7 +152,7 @@ const Contact = () => {
                       </Col>
                       <Col sm="9">
                         <h4 className="contact-title">EMAIL</h4>
-                        <p className="contact-text">info@zyclyx.com</p>
+                        <p className="contact-text">info@intellect-qa.com</p>
                       </Col>
                     </Row>
                   </Col>
@@ -204,7 +210,7 @@ const Contact = () => {
                   className="floating-label-form c-form"
                 >
                   <div className="row py-md-2 d-flex justify-content-center">
-                    <div className="col-md-7 col-12">
+                    <div className="col-lg-7 col-12">
                       <div className="form-group floating-label py-1">
                         <input
                           type="text"
@@ -222,7 +228,7 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                    <div className="col-md-7 col-12">
+                    <div className="col-lg-7 col-12">
                       <div className="form-group floating-label py-1">
                         <input
                           type="email"
@@ -242,7 +248,7 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                    <div className="col-md-7 col-12">
+                    <div className="col-lg-7 col-12">
                       {/* <div className="form-group floating-label py-1"> */}
                       <PhoneInput
                         inputProps={{
@@ -279,7 +285,7 @@ const Contact = () => {
                         </label>
                       </div>
                     </div> */}
-                    <div className="col-md-7 col-12">
+                    <div className="col-lg-7 col-12">
                       <div className="form-group floating-label py-1">
                         <textarea
                           className="form-control pt-3 pb-4"
@@ -346,9 +352,9 @@ const Contact = () => {
               >
                 <iframe
                   style={{ height: "100%", width: "100%", border: 0 }}
-                  title="zyclyx"
+                  title="INTELLECT Technologies"
                   frameBorder="0"
-                  src="https://www.google.com/maps/embed/v1/place?q=zyclyx+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7213.451362497201!2d51.518291!3d25.313419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x614e24d824b8c339!2sServcorp%20Commercial%20Bank%20Plaza%20-%20Coworking%2C%20Offices%2C%20Virtual%20Offices%20%26%20Meeting%20Rooms!5e0!3m2!1sen!2sin!4v1576837668959!5m2!1sen!2sin"
                 />
               </div>
               <a

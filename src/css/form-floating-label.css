@@ -1,7 +1,7 @@
 .floating-label-form .form-control {
-  background-color: rgba(0, 161, 75, 0.1);
+  background-color: rgba(72, 19, 40, 0.1);
   padding: 1.7rem 1rem;
-  border: 1px solid rgba(0, 161, 75, 0.5);
+  border: 1px solid rgba(72, 19, 40, 0.5);
 }
 .floating-label-form input {
   outline: none;
@@ -25,17 +25,17 @@
 
 .floating-label input:not(:placeholder-shown),
 .floating-label textarea:not(:placeholder-shown) {
-  border: 1px solid #00a14b;
+  border: 1px solid #481328;
 }
 
 .floating-label input:not(:placeholder-shown) + label,
 .floating-label textarea:not(:placeholder-shown) + label {
   background-image: linear-gradient(
     to top,
-    rgb(233 246 236) 34%,
-    #fff,
-    #fff,
-    #fff 100%
+    rgb(236 230 233) 35%,
+    #ffffff,
+    #ffffff,
+    #ffffff 100%
   );
   transform: translate(0, -35%) !important;
   opacity: 1 !important;
@@ -49,14 +49,14 @@
 }
 
 .floating-label label {
-  color: #2db32d !important;
+  color: #481328 !important;
 }
 
 .c-form .floating-label input:not(:placeholder-shown) + label,
 .c-form .floating-label textarea:not(:placeholder-shown) + label {
   background-image: linear-gradient(
     to top,
-    rgb(220 234 225) 34%,
+    rgb(223 218 221) 25%,
     #f1f2f2,
     #f1f2f2,
     #f1f2f2 100%
@@ -66,12 +66,12 @@
 .react-tel-input .form-control {
   padding-left: 52px !important;
   width: 100% !important;
-  border: 1px solid rgba(0, 161, 75, 0.5) !important;
+  border: 1px solid rgba(72, 19, 40, 0.5) !important;
 }
 .react-tel-input .selected-flag {
-  background-color: #dceae1;
+  background-color: #dfdadd;
   border-right: none;
-  border: 1px solid rgba(0, 161, 75, 0.5);
+  border: 1px solid rgba(72, 19, 40, 0.5) !important;
 }
 .react-tel-input .flag-dropdown {
   border: none !important;
@@ -81,8 +81,8 @@
 }
 .react-tel-input .selected-flag:hover,
 .react-tel-input .selected-flag:focus {
-  background-color: #dceae1;
+  background-color: #dfdadd;
 }
 .react-tel-input .flag-dropdown.open .selected-flag {
-  background-color: #dceae1;
+  background-color: #dfdadd;
 }

@@ -77,8 +77,8 @@ const careers = () => {
     <Layout
       showBanner
       active="career"
-      title="Career Opportunities at ZYCLYX"
-      description="In ZYCLYX, we empower employees to explore their talents
+      title="Career Opportunities"
+      description="In INTELLECT Technologies, we empower employees to explore their talents
     and abilities in tandem with their careers"
     >
       <HeroBanner title="Build your future with us" imageClass="career" />
@@ -86,8 +86,8 @@ const careers = () => {
         <Container>
           <h3 className="c-overview-text mb-0">
             If you have a desire to excel, we have the potential to help you
-            prosper. In ZYCLYX, we empower employees to explore their talents
-            and abilities in tandem with their careers.
+            prosper. In INTELLECT Technologies, we empower employees to explore
+            their talents and abilities in tandem with their careers.
           </h3>
         </Container>
       </Container>

@@ -6,19 +6,19 @@
   background-image: url("/images/about2.svg");
 }
 .overview-wrapper {
-  background-color: #f8fbff;
+  background-color: #f9f9f9;
 }
 .overview-wrapper p {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #111b33;
+  color: #19132a;
 }
 .mission-outer {
   position: relative;
   height: 500px;
 }
 .mission-inner {
-  background-color: #0c314b;
+  background-color: #19132a;
   position: absolute;
   top: -50px;
   left: 50%;
@@ -35,7 +35,7 @@
   background-color: #f9f9f9;
 }
 .mission-title {
-  color: #00a14b;
+  color: #8d1b3d;
   font-size: 2.5rem;
 }
 .mission-text {
@@ -43,7 +43,7 @@
   font-size: 1.2rem;
 }
 .core-values {
-  background-color: #0c314b;
+  background-color: #19132a;
 }
 
 .c-icon {
@@ -59,7 +59,7 @@
   margin: 3rem 0.4rem;
 }
 .c-title {
-  color: #fbbf12;
+  color: #de9263;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -95,7 +95,7 @@
   background-color: #0c314b;
 }
 .h-title-green {
-  background-color: #00a14b;
+  background-color: #8d1b3d;
 }
 
 .h-title-dark.plan {
@@ -133,7 +133,7 @@
   border: none;
   padding: 0.2rem 0.5rem;
   font-weight: 500;
-  color: #00a14b;
+  color: #8d1b3d;
 }
 .m-btn-active {
   font-weight: 700;
@@ -176,7 +176,7 @@
   }
 }
 .title-green {
-  color: #00a14b !important;
+  color: #8d1b3d !important;
 }
 
 @media (max-width: 576px) {

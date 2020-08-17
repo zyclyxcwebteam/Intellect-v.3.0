@@ -33,7 +33,7 @@ class chatbot extends Component {
         {
           user: "",
           bot: {
-            text: "Hey there, I am Zybot. Ask me anything I'll try to answer",
+            text: "Hey there, I am Ibot. Ask me anything I'll try to answer",
             description: null,
             options: null,
           },
@@ -44,7 +44,7 @@ class chatbot extends Component {
 
   getNewSession() {
     if (this.state.sessionID === null)
-      fetch("https://stark-crag-70246.herokuapp.com/session")
+      fetch("https://pacific-taiga-36420.herokuapp.com/session")
         .then(session => {
           this.setState({ loading: true });
           return session.json();
@@ -81,7 +81,7 @@ class chatbot extends Component {
           { user: this.state.userinput, bot: { text: "" } },
         ],
       });
-      fetch("https://stark-crag-70246.herokuapp.com/zyclyx", {
+      fetch("https://pacific-taiga-36420.herokuapp.com/intellect", {
         method: "post",
         headers: {
           "Content-type": "application/json",
@@ -164,7 +164,7 @@ class chatbot extends Component {
           <>
             <div className="chatbox">
               <div className="card-header chat-header d-flex justify-content-between">
-                <h5 className="h6 m-0">Zybot</h5>
+                <h5 className="h6 m-0">Ibot</h5>
                 <button
                   type="button"
                   className="close-chat"

@@ -35,11 +35,11 @@
   box-shadow: none;
 }
 .btn-left {
-  border-right: 3px solid #00a14b;
+  border-right: 3px solid #8d1b3d;
 }
 .t-btn-active {
   font-weight: 500;
-  color: #00a14b;
+  color: #8d1b3d;
 }
 .t-btn:active {
   outline: none;

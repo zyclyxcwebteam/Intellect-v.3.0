@@ -10,15 +10,17 @@ const Footer = () => {
         <ul className="contact-links">
           <li>
             <FontAwesomeIcon icon="phone-alt" />
-            <a href="/">(+91) 40 23549363</a>
+            <a href="tel:+974 44528242">(+974) 44528242</a>
           </li>
           <li>
             <FontAwesomeIcon icon="at" />
-            <a href="/">info@zyclyx.com</a>
+            <a href="mailto:info@intellect-qa.com">info@intellect-qa.com</a>
           </li>
           <li>
             <FontAwesomeIcon icon="map-marker-alt" />
-            <a href="/">Visit us</a>
+            <a href="https://www.google.com/maps/place/Servcorp+Commercial+Bank+Plaza+-+Coworking,+Offices,+Virtual+Offices+%26+Meeting+Rooms/@25.313031,51.518516,16z/data=!4m5!3m4!1s0x0:0x614e24d824b8c339!8m2!3d25.313419!4d51.518291?hl=en">
+              Visit us
+            </a>
           </li>
         </ul>
       </Container>
@@ -27,23 +29,29 @@ const Footer = () => {
           <Col sm="12" md="4" className="social-media px-0">
             <ul className="py-1">
               <li>
-                <a href="https://www.facebook.com/Zyclyx.IT" title="facebook">
+                <a
+                  href="https://www.facebook.com/Intellect.QA"
+                  title="facebook"
+                >
                   <FontAwesomeIcon icon={["fab", "facebook"]} />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/zyclyx_it" title="instagram">
+                <a
+                  href="https://www.instagram.com/intellect.qa/"
+                  title="instagram"
+                >
                   <FontAwesomeIcon icon={["fab", "instagram"]} />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/Zyclyx_IT" title="twitter">
+                <a href="https://twitter.com/Intellect_QA" title="twitter">
                   <FontAwesomeIcon icon={["fab", "twitter"]} />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/company/zyclyx-consulting-pvt-ltd"
+                  href="https://www.linkedin.com/company/intellect-qa/"
                   title="Linkedin"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} />
@@ -53,7 +61,7 @@ const Footer = () => {
           </Col>
           <Col sm="12" md="4">
             <p className="m-0 text-center">
-              &copy;2018-2020 ZYCLYX. All rights reserved
+              &copy;2018-2020 INTELLECT-QA. All rights reserved
             </p>
           </Col>
           <Col sm="12" md="4" className="privacy px-0">

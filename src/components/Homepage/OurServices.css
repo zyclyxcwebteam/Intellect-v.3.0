@@ -2,11 +2,11 @@
   max-width: 775px;
 }
 .service-title {
-  color: #00a14b;
+  color: #8d1b3d;
   margin-bottom: 2.5rem;
 }
 .service-title-inner {
-  color: #111b33;
+  color: #19132a;
   font-size: 48px;
   font-weight: 700;
 }
@@ -36,7 +36,7 @@
   top: -5px;
 }
 .arrow {
-  color: #111b33;
+  color: #19132a;
   font-size: 2rem;
   display: inline-block;
   margin-top: 10px;
@@ -74,12 +74,12 @@
   width: 15px;
   border-radius: 50%;
   margin: 1rem 0.5rem;
-  border: 1px solid #00a14b;
+  border: 1px solid #481328;
 }
 .slide-index-list li.active {
   font-weight: bold;
-  color: #111b33;
-  background-color: hsl(148, 100%, 42%);
+  color: #19132a;
+  background-color: #8d1b3d;
 }
 .service-link:hover {
   color: #811c92;
