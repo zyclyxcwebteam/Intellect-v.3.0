@@ -1,11 +1,15 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import fetch from "isomorphic-fetch";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import "react-phone-number-input/style.css";
+import PhoneInput, {
+  formatPhoneNumberIntl,
+  parsePhoneNumber,
+} from "react-phone-number-input";
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import "../css/contactus.css";
@@ -15,14 +19,18 @@ const Contact = () => {
   const [showContactInfo, setShowContactInfo] = useState(true);
   const [success, setSuccess] = useState(false);
   const [submintForm, setSubmitForm] = useState(false);
-  const [phone, setPhone] = useState(null);
+  const [country, setCountry] = useState("");
+  const [value, setValue] = useState();
 
-  const handleOnChange = (_value, _data) => {
-    setPhone({
-      phone: _value.slice(_data.dialCode.length),
-      code: _data.dialCode,
-    });
-  };
+  useEffect(() => {
+    fetch("http://ip-api.com/json/")
+      .then(res => {
+        return res.json();
+      })
+      .then(data => {
+        setCountry(data.countryCode);
+      });
+  }, []);
 
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data, event) => {
@@ -30,44 +38,40 @@ const Contact = () => {
     const payload = {
       fullname: data.fullname,
       email: data.email,
-      phone: phone.phone,
+      phone: formatPhoneNumberIntl(value),
       date: new Date(),
       message: data.message,
-      countryCode: phone.code,
+      countryCode: parsePhoneNumber(value)
+        ? parsePhoneNumber(value).country
+        : "",
       website: "intellect",
     };
 
-    fetch(
-      "https://INTELLECT Technologies-backend-api.herokuapp.com/business-enquiries",
-      {
-        method: "post",
-        headers: {
-          "Content-type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      }
-    )
+    fetch("https://zyclyx-backend-api.herokuapp.com/business-enquiries", {
+      method: "post",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
       .then(res => {
         setSuccess(true);
         return res.json();
       })
       .then(() => {
         event.target.reset();
-        setPhone({ phone: null });
+        setValue("");
         setTimeout(() => {
           setSuccess(false);
         }, 6000);
         setSubmitForm(false);
-        fetch(
-          "https://INTELLECT Technologies-email-sender.herokuapp.com/contact",
-          {
-            method: "post",
-            headers: {
-              "Content-type": "application/json",
-            },
-            body: JSON.stringify(payload),
-          }
-        )
+        fetch("https://zyclyx-email-sender.herokuapp.com/contact", {
+          method: "post",
+          headers: {
+            "Content-type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        })
           .then(res => {
             return res.json();
           })
@@ -249,42 +253,14 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="col-lg-7 col-12">
-                      {/* <div className="form-group floating-label py-1"> */}
                       <PhoneInput
-                        inputProps={{
-                          name: "phone",
-                          required: true,
-                          autoFocus: true,
-                        }}
-                        inputClass="form-control"
-                        containerClass="form-group floating-label"
-                        country="in"
-                        onChange={handleOnChange}
                         placeholder="Phone"
+                        className="form-group floating-label py-1"
+                        value={value}
+                        onChange={setValue}
+                        defaultCountry={country}
                       />
                     </div>
-                    {/* <div className="col-md-7 col-12">
-                      <div className="form-group floating-label py-1">
-                        <input
-                          type="tel"
-                          className="form-control"
-                          name="phone"
-                          pattern="^[0-9]{3,12}$"
-                          autoComplete="off"
-                          placeholder="Phone"
-                          ref={register({ required: true, max: 16 })}
-                        />
-                        {errors.phone && (
-                          <span className="err-msg">
-                            *Phone number is required
-                          </span>
-                        )}
-                        <label htmlFor="phone" id="phoneLabel">
-                          Phone
-                          <span className="required">*</span>
-                        </label>
-                      </div>
-                    </div> */}
                     <div className="col-lg-7 col-12">
                       <div className="form-group floating-label py-1">
                         <textarea
