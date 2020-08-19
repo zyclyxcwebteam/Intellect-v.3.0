@@ -78,11 +78,11 @@
 }
 
 .career {
-  background-image: url("/images/careers.svg");
+  background-image: url("/images/careers.png");
 }
 
 .job-description {
-  background-image: url("/images/job-details.svg");
+  background-image: url("/images/job-details.png");
 }
 
 .about {
@@ -124,7 +124,7 @@
 /* 5. Internet of things */
 .iot {
   /* background-image: url("/images/service-pages/iot.svg"); */
-  background-image: url("/images/service-pages/7.png");
+  background-image: url("/images/service-pages/22.png");
 }
 .iot-sol {
   background-image: url("/images/service-pages/7-sol.svg");
@@ -160,7 +160,7 @@
 
 /* 10. governance and compliance */
 .compliance {
-  background-image: url("/images/service-pages/6.png");
+  background-image: url("/images/service-pages/23.png");
 }
 .compliance-sol {
   background-image: url("/images/service-pages/6-sol.jpg");
@@ -210,7 +210,7 @@
 
 /* 17. Outsourcing */
 .outsource {
-  background-image: url("/images/service-pages/12.png");
+  background-image: url("/images/service-pages/24.png");
 }
 .outsource-sol {
   background-image: url("/images/service-pages/12-sol.jpg");
@@ -241,7 +241,7 @@
 }
 /* 21. Data Visualization */
 .datavis {
-  background-image: url("/images/service-pages/13.png");
+  background-image: url("/images/service-pages/20.png");
 }
 .datavis-sol {
   background-image: url("/images/service-pages/13-sol.svg");
@@ -249,7 +249,7 @@
 
 /* 22. Predictive Analysis */
 .predictive {
-  background-image: url("/images/service-pages/19.png");
+  background-image: url("/images/service-pages/21.png");
 }
 .predictive-sol {
   background-image: url("/images/service-pages/19-sol.jpg");

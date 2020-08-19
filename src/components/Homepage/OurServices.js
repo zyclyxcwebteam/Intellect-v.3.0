@@ -11,9 +11,13 @@ import {
 import "./OurServices.css";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import NewAgeBG from "../../../static/images/services/new-age.jpg";
+// import NewAgeBG from "../../../static/images/services/4.png";
 import NetworkBG from "../../../static/images/services/security.jpg";
+// import NetworkBG from "../../../static/images/services/3.png";
 import RPABG from "../../../static/images/services/rpa.jpg";
+// import RPABG from "../../../static/images/services/2.png";
 import OCRBG from "../../../static/images/services/ocr.jpg";
+// import OCRBG from "../../../static/images/services/1.png";
 
 const items = [
   {

@@ -4,8 +4,12 @@ import { useForm } from "react-hook-form";
 import { Container, Row, Col } from "reactstrap";
 import fetch from "isomorphic-fetch";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import "react-phone-number-input/style.css";
+import PhoneInput, {
+  formatPhoneNumberIntl,
+  parsePhoneNumber,
+} from "react-phone-number-input";
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import "../css/job-description.css";
@@ -36,14 +40,26 @@ const jobDescription = props => {
     showForm: false,
     formBtn: true,
   });
-  const [phone, setPhone] = useState(null);
+  // const [phone, setPhone] = useState(null);
+  const [country, setCountry] = useState("");
+  const [value, setValue] = useState();
 
-  const handleOnChange = (_value, _data) => {
-    setPhone({
-      phone: _value.slice(_data.dialCode.length),
-      code: _data.dialCode,
-    });
-  };
+  useEffect(() => {
+    fetch("http://ip-api.com/json/")
+      .then(res => {
+        return res.json();
+      })
+      .then(data => {
+        setCountry(data.countryCode);
+      });
+  }, []);
+
+  // const handleOnChange = (_value, _data) => {
+  //   setPhone({
+  //     phone: _value.slice(_data.dialCode.length),
+  //     code: _data.dialCode,
+  //   });
+  // };
   const handleFileUpload = event => {
     setResumeFile(event.target.files[0]);
   };
@@ -67,11 +83,13 @@ const jobDescription = props => {
       firstname: data.firstname,
       lastname: data.lastname,
       email: data.email,
-      phone: phone.phone,
+      phone: formatPhoneNumberIntl(value),
       subject: data.message,
       position: jobDetails.title,
-      website: "zyclyx",
-      country_code: phone.code,
+      website: "intellect",
+      country_code: parsePhoneNumber(value)
+        ? parsePhoneNumber(value).country
+        : "",
       date: new Date(),
     };
 
@@ -315,41 +333,14 @@ const jobDescription = props => {
                                 </div>
                               </div>
                               <div className="col-12">
-                                {/* <div className="form-group floating-label py-1"> */}
                                 <PhoneInput
-                                  inputProps={{
-                                    name: "phone",
-                                    required: true,
-                                    autoFocus: true,
-                                  }}
-                                  inputClass="form-control"
-                                  containerClass="form-group floating-label"
-                                  country="in"
-                                  onChange={handleOnChange}
                                   placeholder="Phone"
+                                  className="form-group floating-label py-1"
+                                  value={value}
+                                  onChange={setValue}
+                                  defaultCountry={country}
                                 />
                               </div>
-                              {/* <div className="col-12">
-                                <div className="form-group floating-label py-1">
-                                  <input
-                                    type="text"
-                                    className="form-control"
-                                    name="phone"
-                                    placeholder="Phone"
-                                    pattern="^[0-9]{3,12}$"
-                                    ref={register({ required: true })}
-                                  />
-                                  {errors.phone && (
-                                    <span className="err-msg">
-                                      *Please enter phone
-                                    </span>
-                                  )}
-                                  <label>
-                                    Phone
-                                    <span className="required">*</span>
-                                  </label>
-                                </div>
-                              </div> */}
 
                               <div className="col-12">
                                 <div className="form-group py-1  py-md-2">

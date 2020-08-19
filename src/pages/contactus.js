@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import fetch from "isomorphic-fetch";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "react-phone-input-2/lib/style.css";
 import "react-phone-number-input/style.css";
 import PhoneInput, {
   formatPhoneNumberIntl,
@@ -286,7 +285,7 @@ const Contact = () => {
                     >
                       {submintForm ? (
                         <>
-                          Loading..
+                          Sending..
                           <div
                             className="spinner-border spinner-border-sm ml-3 text-warning"
                             role="status"
