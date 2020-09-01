@@ -55,19 +55,19 @@ export default () => {
           <Container className=" py-2 py-md-5">
             <Row>
               <Col sm={12} md={4}>
-                <div className="d-flex justify-content-center flex-column align-items-center">
+                <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
                   <h3 className="stat-title text-center">20+</h3>
                   <p className="stat-caption text-center">Clients Served</p>
                 </div>
               </Col>
               <Col sm={12} md={4}>
-                <div className="d-flex justify-content-center flex-column align-items-center">
+                <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
                   <h3 className="stat-title text-center">40+</h3>
                   <p className="stat-caption text-center">Projects Delivered</p>
                 </div>
               </Col>
               <Col sm={3} md={4}>
-                <div className="d-flex justify-content-center flex-column align-items-center">
+                <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
                   <h3 className="stat-title text-center">350+</h3>
                   <p className="stat-caption text-center">
                     Processess Automated

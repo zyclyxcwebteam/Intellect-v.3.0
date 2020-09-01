@@ -114,12 +114,13 @@
 .stat-title {
   font-size: 4rem;
   font-weight: 700;
-  color: #19132a;
+  /* color: #19132a; */
+  color: #0511f2;
 }
 
 .stat-caption {
   font-size: 1.2rem;
-  color: #19132a;
+  color: hsl(256, 38%, 35%);
 }
 
 .stats-wrapper {
