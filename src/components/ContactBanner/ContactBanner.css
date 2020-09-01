@@ -1,12 +1,27 @@
 .contact-banner {
   background-color: #f9f9f9;
+  background: linear-gradient(45deg, #481328 0%, #000320 100%),
+    radial-gradient(100% 225% at 100% 0%, #ff6928 0%, #481328 100%),
+    linear-gradient(225deg, #481328 0%, #000000 100%),
+    linear-gradient(
+      135deg,
+      #cdffeb 10%,
+      #cdffeb 35%,
+      #009f9d 35%,
+      #009f9d 60%,
+      #07456f 60%,
+      #07456f 67%,
+      #481328 67%,
+      #481328 100%
+    );
+  background-blend-mode: screen, overlay, hard-light, normal;
 }
 .contact-b-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #8d1b3d;
+  color: #ffffff;
 }
-.button {
+/* .button {
   color: #fff;
   background: #19132a;
   border: none;
@@ -53,7 +68,7 @@
 }
 .button:focus {
   outline: none;
-}
+} */
 .contact-banner img {
   max-width: 100%;
 }
@@ -62,4 +77,147 @@
     text-align: center;
     font-size: 2rem;
   }
+}
+
+.button {
+  position: relative;
+  text-transform: uppercase;
+  color: #1670f0;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  box-shadow: 0 20px 50px rgba(141, 27, 61, 0.2);
+  overflow: hidden;
+  background: radial-gradient(
+      100% 225% at 100% 0%,
+      #666666 0%,
+      hsl(243, 90%, 35%) 100%
+    ),
+    linear-gradient(235deg, hsl(243, 90%, 10%) 0%, hsl(243, 90%, 25%) 100%),
+    linear-gradient(
+      45deg,
+      #1f12f3 0%,
+      hsl(243, 90%, 31%) 40%,
+      hsl(243, 90%, 40%) 40%,
+      hsl(243, 90%, 55%) 50%,
+      hsl(243, 90%, 65%) 50%,
+      hsl(243, 90%, 75%) 70%,
+      hsl(243, 90%, 85%) 70%,
+      hsl(243, 90%, 95%) 100%
+    ),
+    linear-gradient(
+      180deg,
+      #01024e 0%,
+      #01024e 43%,
+      #543864 43%,
+      #543864 62%,
+      #8b4367 62%,
+      #8b4367 80%,
+      #ff6464 80%,
+      #ff6464 100%
+    );
+  background-blend-mode: overlay, hard-light, overlay, normal;
+}
+
+/* .button:before {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  content: "";
+  width: 50%;
+  background-color: rgba(72, 19, 40, 0.05);
+  z-index: 1;
+} */
+
+.button span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #1f12f3, hsl(243, 90%, 90%));
+  animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.button span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1f12f3, hsl(243, 90%, 90%));
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.button span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #1f12f3, hsl(243, 90%, 90%));
+  animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.button span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #1f12f3, hsl(243, 90%, 90%));
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.button:hover {
+  text-decoration: none;
+  background: linear-gradient(
+    235deg,
+    hsl(243, 90%, 10%) 0%,
+    hsl(243, 90%, 35%) 100%
+  );
+  transform: scale(1.02);
 }
