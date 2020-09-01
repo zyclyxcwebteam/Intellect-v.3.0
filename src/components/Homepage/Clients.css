@@ -1,7 +1,7 @@
 /* our clients */
 .clients {
   padding: 3rem 0;
-  height: 250px;
+  /* height: 250px; */
 }
 .slick-slide {
   display: flex;
@@ -30,16 +30,16 @@
   border: none;
   padding: 0rem 1rem;
   font-size: 1.8rem;
-  color: #777;
+  color: hsl(237, 96%, 80%);
   outline: none;
   box-shadow: none;
 }
 .btn-left {
-  border-right: 3px solid #8d1b3d;
+  border-right: 3px solid #0511f2;
 }
 .t-btn-active {
   font-weight: 500;
-  color: #8d1b3d;
+  color: #0511f2;
 }
 .t-btn:active {
   outline: none;
