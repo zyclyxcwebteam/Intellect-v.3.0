@@ -29,31 +29,48 @@
 }
 
 .poc-wrapper {
-  background: linear-gradient(45deg, #f9f9f9 0%, #222 100%),
-    radial-gradient(100% 225% at 100% 0%, #f2f2f2 0%, #222 100%),
-    linear-gradient(225deg, #f4f4f4 0%, #222 100%),
+  background: linear-gradient(123deg, #ffffff 0%, #002a5a 100%),
+    linear-gradient(236deg, #c5c5c5 0%, #481328 100%),
+    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
+    linear-gradient(
+      225deg,
+      #250914 20%,
+      #002a5a 45%,
+      hsl(205, 100%, 20%) 45%,
+      #280f34 70%,
+      #481328 70%,
+      #481328 85%,
+      #481328 85%,
+      #481328 100%
+    ),
     linear-gradient(
       135deg,
-      #f4f4f4 10%,
-      #f5f5f5 35%,
-      #fafafa 35%,
-      #f9f9f9 60%,
-      #f4f4f4 60%,
-      #ffffff 67%,
-      #f5f5f5 67%,
-      #f9f9f9 100%
+      #0e0220 15%,
+      #0e0220 35%,
+      #8d1b3d 35%,
+      #8d1b3d 60%,
+      #48e0e4 60%,
+      #48e0e4 68%,
+      #d7fbf6 68%,
+      #d7fbf6 100%
     );
-  background-blend-mode: screen, overlay, hard-light, normal;
+  background-blend-mode: overlay, overlay, overlay, darken, normal;
+  color: #a5a5a5;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 .poc-title {
   font-size: 1.5rem;
   /* color: #8d1b3d; */
-  color: #0511f2;
+  color: #d5d5d5;
 }
 .poc-title-bg {
-  color: #19132a;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 700;
+}
+.poc-card-title {
+  color: #ffffff;
 }
 /*
 .poc-letter-wrapper {

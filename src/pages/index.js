@@ -95,30 +95,36 @@ export default () => {
             </p>
 
             <Row className="py-3">
-              <Col sm="1" />
-              <Col sm="11" className="d-flex align-items-center">
-                <h4 className="mb-0">Forecast</h4>
-                <p className="mb-0 ml-3">
-                  Act as a tool to forecast the feasibility of the projects.
-                </p>
+              <Col sm="12" md="4">
+                <Row>
+                  <Col sm="1" />
+                  <Col sm="11" className="d-flex flex-column">
+                    <h3 className="poc-card-title">Forecast</h3>
+                    <p>
+                      Act as a tool to forecast the feasibility of the projects.
+                    </p>
+                  </Col>
+                </Row>
               </Col>
-            </Row>
-            <Row className="py-3">
-              <Col sm="1" />
-              <Col sm="11" className="d-flex align-items-center">
-                <h4 className="mb-0">Report</h4>
-                <p className="mb-0 ml-3">
-                  Provides a complete report on project evaluation
-                </p>
+
+              <Col sm="12" md="4">
+                <Row>
+                  <Col sm="1" />
+                  <Col sm="11" className="d-flex flex-column">
+                    <h3 className="poc-card-title">Report</h3>
+                    <p>Provides a complete report on project evaluation</p>
+                  </Col>
+                </Row>
               </Col>
-            </Row>
-            <Row className="py-3">
-              <Col sm="1" />
-              <Col sm="11" className="d-flex align-items-center">
-                <h4 className="mb-0">Cost Effective</h4>
-                <p className="mb-0 ml-3">
-                  Saves your businesses time and money
-                </p>
+
+              <Col sm="12" md="4">
+                <Row>
+                  <Col sm="1" />
+                  <Col sm="11" className="d-flex flex-column">
+                    <h3 className="poc-card-title">Cost Effective</h3>
+                    <p>Saves your businesses time and money</p>
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Container>
