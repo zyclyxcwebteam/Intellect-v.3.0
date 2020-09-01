@@ -23,18 +23,91 @@
   font-size: 3.2rem;
 }
 .slide-1 {
-  background-image: url("../../../static/images/home-banner/img1.jpg");
+  /* background-image: url("../../../static/images/home-banner/img1.jpg"); */
   /* background-image: url("../../../static/images/home-banner/pic1.jpg"); */
   background-size: cover;
   background-position: center;
+  background: linear-gradient(45deg, #000850 0%, #000320 100%),
+    radial-gradient(100% 225% at 100% 0%, #ff6928 0%, #000000 100%),
+    linear-gradient(225deg, #ff7a00 0%, #000000 100%),
+    linear-gradient(
+      135deg,
+      #cdffeb 10%,
+      #cdffeb 35%,
+      #009f9d 35%,
+      #009f9d 60%,
+      #07456f 60%,
+      #07456f 67%,
+      #0f0a3c 67%,
+      #0f0a3c 100%
+    );
+  background-blend-mode: screen, overlay, hard-light, normal;
 }
 .slide-2 {
-  background-image: url("../../../static/images/home-banner/img2.jpg");
+  /* background-image: url("../../../static/images/home-banner/img2.jpg"); */
+  background: linear-gradient(
+      125deg,
+      #00ff57 0%,
+      #010033 40%,
+      #460043 70%,
+      #f0ffc5 100%
+    ),
+    linear-gradient(55deg, #0014c9 0%, #410060 100%),
+    linear-gradient(300deg, #ffc700 0%, #001aff 100%),
+    radial-gradient(
+      135% 215% at 115% 40%,
+      #393939 0%,
+      #393939 40%,
+      #849561 calc(40% + 1px),
+      #849561 60%,
+      #eed690 calc(60% + 1px),
+      #eed690 80%,
+      #ecefd8 calc(80% + 1px),
+      #ecefd8 100%
+    ),
+    linear-gradient(
+      125deg,
+      #282d4f 0%,
+      #282d4f 40%,
+      #23103a calc(40% + 1px),
+      #23103a 70%,
+      #a0204c calc(70% + 1px),
+      #a0204c 88%,
+      #ff6c00 calc(88% + 1px),
+      #ff6c00 100%
+    );
+  background-blend-mode: overlay, screen, overlay, overlay, normal;
   background-size: cover;
   background-position: center;
 }
 .slide-3 {
-  background-image: url("../../../static/images/home-banner/img3.png");
+  /* background-image: url("../../../static/images/home-banner/img3.png"); */
+  background: linear-gradient(123deg, #ffffff 0%, #00b2ff 100%),
+    linear-gradient(236deg, #baff99 0%, #005e64 100%),
+    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
+    linear-gradient(
+      225deg,
+      #0094ff 20%,
+      #bff4ed 45%,
+      #280f34 45%,
+      #280f34 70%,
+      #ff004e 70%,
+      #e41655 85%,
+      #b30753 85%,
+      #b30753 100%
+    ),
+    linear-gradient(
+      135deg,
+      #0e0220 15%,
+      #0e0220 35%,
+      #e40475 35%,
+      #e40475 60%,
+      #48e0e4 60%,
+      #48e0e4 68%,
+      #d7fbf6 68%,
+      #d7fbf6 100%
+    );
+  background-blend-mode: overlay, overlay, overlay, darken, normal;
   background-size: cover;
   background-position: center;
 }
