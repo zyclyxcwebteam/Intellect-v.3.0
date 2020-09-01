@@ -29,17 +29,33 @@
 }
 
 .poc-wrapper {
-  background-color: #f0f1f9;
+  background: linear-gradient(45deg, #f9f9f9 0%, #222 100%),
+    radial-gradient(100% 225% at 100% 0%, #f2f2f2 0%, #222 100%),
+    linear-gradient(225deg, #f4f4f4 0%, #222 100%),
+    linear-gradient(
+      135deg,
+      #f4f4f4 10%,
+      #f5f5f5 35%,
+      #fafafa 35%,
+      #f9f9f9 60%,
+      #f4f4f4 60%,
+      #ffffff 67%,
+      #f5f5f5 67%,
+      #f9f9f9 100%
+    );
+  background-blend-mode: screen, overlay, hard-light, normal;
 }
 .poc-title {
   font-size: 1.5rem;
-  color: #8d1b3d;
+  /* color: #8d1b3d; */
+  color: #0511f2;
 }
 .poc-title-bg {
   color: #19132a;
   font-size: 2.5rem;
   font-weight: 700;
 }
+/*
 .poc-letter-wrapper {
   position: relative;
 }
@@ -51,7 +67,7 @@
   color: #c5c5c591;
   color: rgba(141, 27, 61, 0.2);
   font-family: "Roboto", sans-serif;
-}
+} */
 /* our services slider */
 .service-img img {
   height: 500px;
