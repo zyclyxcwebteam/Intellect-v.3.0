@@ -1,0 +1,22 @@
+.poc-wrapper {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #e5e5e5;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.poc-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.poc-title small {
+  font-size: 1.5rem;
+  color: #e5e5e5;
+  font-weight: 500;
+}
+.poc-card-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2rem;
+}
