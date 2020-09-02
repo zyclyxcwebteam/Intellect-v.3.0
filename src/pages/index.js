@@ -5,8 +5,9 @@ import Layout from "../components/Layout/Layout";
 import Clients from "../components/Homepage/Clients";
 import Partners from "../components/Homepage/Partners";
 import ImageCarousel from "../components/Homepage/ImageCarousel";
-import OurServices from "../components/Homepage/OurServices";
-import Industries from "../components/Homepage/Industries";
+import CoreServices from "../components/Homepage/CoreServices/CoreServices";
+import Industries from "../components/Homepage/Industries/Industries";
+import ProofOfConcept from "../components/Homepage/POC/POC";
 import "../css/home.css";
 import "../components/Homepage/Clients.css";
 import "slick-carousel/slick/slick.css";
@@ -48,9 +49,9 @@ export default () => {
             </Row>
           </Container>
         </Container>
-        <OurServices />
-
+        <CoreServices />
         <Industries />
+
         <Container fluid className="stats-wrapper py-2 py-md-5">
           <Container className=" py-2 py-md-5">
             <Row>
@@ -78,57 +79,7 @@ export default () => {
           </Container>
         </Container>
         {/* Proof of Concept */}
-        <Container fluid className="py-5 poc-wrapper">
-          <Container>
-            <h2 className="text-md-center text-left poc-title">
-              Fostering your trust in us with
-              <br />
-              <span className="poc-title-bg">Free Proof of Concept</span>
-            </h2>
-            <p className="text-justify py-md-4 py-2">
-              We believe in developing a trusting partnership with our clients
-              by offering free proof of concept as part of our value added
-              services. With this we demonstrate our work potential by creating
-              an advanced prototype of the project. This allows you to checkout
-              its feasibility in your business process, hence optimizing the
-              experience.
-            </p>
-
-            <Row className="py-3">
-              <Col sm="12" md="4">
-                <Row>
-                  <Col sm="1" />
-                  <Col sm="11" className="d-flex flex-column">
-                    <h3 className="poc-card-title">Forecast</h3>
-                    <p>
-                      Act as a tool to forecast the feasibility of the projects.
-                    </p>
-                  </Col>
-                </Row>
-              </Col>
-
-              <Col sm="12" md="4">
-                <Row>
-                  <Col sm="1" />
-                  <Col sm="11" className="d-flex flex-column">
-                    <h3 className="poc-card-title">Report</h3>
-                    <p>Provides a complete report on project evaluation</p>
-                  </Col>
-                </Row>
-              </Col>
-
-              <Col sm="12" md="4">
-                <Row>
-                  <Col sm="1" />
-                  <Col sm="11" className="d-flex flex-column">
-                    <h3 className="poc-card-title">Cost Effective</h3>
-                    <p>Saves your businesses time and money</p>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </Container>
+        <ProofOfConcept />
         {/* our clients */}
         <Container className="clients py-5">
           <div className="title-buttons d-flex justify-content-center align-items-center pb-5">
