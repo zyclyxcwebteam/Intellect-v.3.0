@@ -28,63 +28,6 @@
   text-align: justify;
 }
 
-.poc-wrapper {
-  background: linear-gradient(123deg, #ffffff 0%, #002a5a 100%),
-    linear-gradient(236deg, #c5c5c5 0%, #481328 100%),
-    linear-gradient(180deg, #ffffff 0%, #002a5a 100%),
-    linear-gradient(
-      225deg,
-      #250914 20%,
-      #002a5a 45%,
-      hsl(205, 100%, 20%) 45%,
-      #280f34 70%,
-      #481328 70%,
-      #481328 85%,
-      #481328 85%,
-      #481328 100%
-    ),
-    linear-gradient(
-      135deg,
-      #0e0220 15%,
-      #0e0220 35%,
-      #8d1b3d 35%,
-      #8d1b3d 60%,
-      #48e0e4 60%,
-      #48e0e4 68%,
-      #d7fbf6 68%,
-      #d7fbf6 100%
-    );
-  background-blend-mode: overlay, overlay, overlay, darken, normal;
-  color: #a5a5a5;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-.poc-title {
-  font-size: 1.5rem;
-  /* color: #8d1b3d; */
-  color: #d5d5d5;
-}
-.poc-title-bg {
-  color: #ffffff;
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-.poc-card-title {
-  color: #ffffff;
-}
-/*
-.poc-letter-wrapper {
-  position: relative;
-}
-.poc-letter {
-  font-size: 7rem;
-  position: absolute;
-  top: -20px;
-  left: 0px;
-  color: #c5c5c591;
-  color: rgba(141, 27, 61, 0.2);
-  font-family: "Roboto", sans-serif;
-} */
 /* our services slider */
 .service-img img {
   height: 500px;
@@ -115,7 +58,7 @@
   font-size: 4rem;
   font-weight: 700;
   /* color: #19132a; */
-  color: #0511f2;
+  color: hsl(237, 96%, 68%);
 }
 
 .stat-caption {
