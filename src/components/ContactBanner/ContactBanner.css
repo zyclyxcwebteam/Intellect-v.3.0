@@ -21,57 +21,7 @@
   font-weight: 700;
   color: #ffffff;
 }
-/* .button {
-  color: #fff;
-  background: #19132a;
-  border: none;
-  outline: none;
-  position: relative;
-  padding: 10px 35px 10px 15px;
-  border-bottom: 2px solid #de9263;
-  border-radius: 10px;
-  outline: none;
-  max-width: 160px;
-}
-.button::after {
-  content: "";
-  position: absolute;
-  background: #481328;
-  width: 2px;
-  height: 25px;
-  right: -2px;
-  top: 11px;
-  border-bottom-right-radius: 10px;
-  z-index: 1;
-}
-.button::before {
-  content: "";
-  position: absolute;
-  background: #481328;
-  height: 25px;
-  width: 25px;
-  right: -2px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-}
-.btn-icon {
-  position: absolute;
-  z-index: 3;
-  right: 2px;
-}
-.button:hover {
-  text-decoration: none;
-  font-weight: 500;
-  color: #f9f9f9;
-  background: hsl(256, 38%, 20%);
-}
-.button:focus {
-  outline: none;
-} */
-.contact-banner img {
-  max-width: 100%;
-}
+
 @media (max-width: 576px) {
   .contact-b-title {
     text-align: center;
@@ -97,38 +47,16 @@
     linear-gradient(
       45deg,
       #1f12f3 0%,
-      hsl(243, 90%, 31%) 40%,
       hsl(243, 90%, 40%) 40%,
-      hsl(243, 90%, 55%) 50%,
-      hsl(243, 90%, 65%) 50%,
-      hsl(243, 90%, 75%) 70%,
-      hsl(243, 90%, 85%) 70%,
-      hsl(243, 90%, 95%) 100%
-    ),
-    linear-gradient(
-      180deg,
-      #01024e 0%,
-      #01024e 43%,
-      #543864 43%,
-      #543864 62%,
-      #8b4367 62%,
-      #8b4367 80%,
-      #ff6464 80%,
-      #ff6464 100%
+      hsl(243, 90%, 40%) 40%,
+      hsl(243, 90%, 45%) 50%,
+      hsl(243, 90%, 40%) 50%,
+      hsl(243, 90%, 40%) 70%,
+      hsl(243, 90%, 45%) 70%,
+      hsl(243, 90%, 45%) 100%
     );
   background-blend-mode: overlay, hard-light, overlay, normal;
 }
-
-/* .button:before {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  bottom: 2px;
-  content: "";
-  width: 50%;
-  background-color: rgba(72, 19, 40, 0.05);
-  z-index: 1;
-} */
 
 .button span:nth-child(1) {
   position: absolute;
@@ -220,4 +148,9 @@
     hsl(243, 90%, 35%) 100%
   );
   transform: scale(1.02);
+}
+/* stop animatin on hover */
+.button:hover span {
+  animation-play-state: paused;
+  opacity: 0;
 }
