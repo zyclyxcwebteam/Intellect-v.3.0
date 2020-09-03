@@ -77,5 +77,11 @@ module.exports = {
         head: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-load-script",
+      options: {
+        src: "https://cdn.rawgit.com/progers/pathseg/master/pathseg.js",
+      },
+    },
   ],
 };
