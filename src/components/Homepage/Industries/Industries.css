@@ -17,7 +17,7 @@
   color: #a5a5a5;
 }
 .ind-section-title {
-  color: hsl(256, 38%, 15%);
+  color: hsl(256, 38%, 45%);
   font-weight: 600;
 }
 .ind-menu-card.active {
@@ -28,4 +28,7 @@
   cursor: pointer;
   background-color: hsl(256, 38%, 15%);
   color: #a5a5a5;
+}
+.ind-text {
+  min-height: 96px;
 }

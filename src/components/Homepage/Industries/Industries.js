@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import bankImg from "../../../../static/images/industries/telecom.png";
+import bankImg from "../../../../static/images/bank_test.svg";
 import "./Industries.css";
 
 const IndustryData = [
@@ -51,6 +51,16 @@ const Industries = () => {
       text: IndustryData[index].text,
     });
   };
+
+  //   useEffect(() => {
+  //     setInterval(() => {
+  //       setIndContent({
+  //         index,
+  //         title: IndustryData[index].title,
+  //         text: IndustryData[index].text,
+  //       });
+  //     }, 3000);
+  //   }, []);
   return (
     <Container fluid className="ind-wrapper">
       <Row className="h-100">
@@ -58,12 +68,12 @@ const Industries = () => {
           <h2 className="text-center py-4 ind-section-title">
             INDUSTRY EXPERTISE
           </h2>
-          <img src={bankImg} alt="telecom industry" className="w-50" />
+          <img src={bankImg} alt="telecom industry" />
         </Col>
         <Col sm="12" md="7" className="right-block">
           <div className="p-5">
             <h3 className="py-5 ind-title">{indContent.title}</h3>
-            <p className="pr-5 mr-5 text-justify ind-text">{indContent.text}</p>
+            <p className="text-justify ind-text">{indContent.text}</p>
           </div>
           <div>
             <Row>
