@@ -10,10 +10,14 @@ import {
 } from "reactstrap";
 import "./CoreServices.css";
 import SectionTitle from "../../SectionTitle/SectionTitle";
-import NewAgeBG from "../../../../static/images/services/new-age.jpg";
-import NetworkBG from "../../../../static/images/services/security.jpg";
-import RPABG from "../../../../static/images/services/rpa.jpg";
-import OCRBG from "../../../../static/images/services/ocr.jpg";
+// import NewAgeBG from "../../../../static/images/services/new-age.jpg";
+// import NetworkBG from "../../../../static/images/services/security.jpg";
+// import RPABG from "../../../../static/images/services/rpa.jpg";
+// import OCRBG from "../../../../static/images/services/ocr.jpg";
+import NewAgeBG from "../../../../static/images/service-pages/2.png";
+import NetworkBG from "../../../../static/images/service-pages/19.png";
+import RPABG from "../../../../static/images/service-pages/10.png";
+import OCRBG from "../../../../static/images/service-pages/3.png";
 
 const items = [
   {
@@ -88,54 +92,57 @@ const OurServices = () => {
         className="service-item"
       >
         <Row>
-          {item.imgLeft && (
-            <Col md={6} sm={12} className="service-img d-md-block d-none">
-              <img src={item.src} alt="new age" />
-            </Col>
-          )}
-          <Col md={6} sm={12} className="p-1 p-md-5">
-            <div className="py-md-5 p-1">
+          {/* {item.imgLeft && ( */}
+          <Col md={6} sm={12} className="service-img d-md-block d-none">
+            <img src={item.src} alt="new age" />
+          </Col>
+          {/* )} */}
+          <Col md={6} sm={12} className="">
+            <div className="service-text-box">
               <h2 className="service-title text-center">
-                <span>{item.captionOne}</span>
+                <small>{item.captionOne}</small>
                 <br />
                 {item.captionTwo}
               </h2>
-              <p className="px-md-5 px-2">{item.serviceText}</p>
-              <p className="text-center">
+              <p className="px-md-5 px-2 text-justify">{item.serviceText}</p>
+              <p className="text-center mt-5">
                 <Link to={item.linkTo} className="service-link text-center">
                   Discover More
                 </Link>
               </p>
             </div>
           </Col>
-          {!item.imgLeft && (
+          {/* {!item.imgLeft && (
             <Col sm={12} md={6} className="service-img d-md-block d-none">
               <img src={item.src} alt="new age" />
             </Col>
-          )}
+          )} */}
         </Row>
       </CarouselItem>
     );
   });
   return (
-    <Container fluid className="service-slider py-4">
+    <Container fluid className="service-slider">
       <Container>
         <SectionTitle title="Core Services" />
       </Container>
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-        className="slides-wrapper"
-      >
-        <CarouselIndicators
-          items={items}
+      <Container fluid className="px-5">
+        <div className="spacer-div" />
+        <Carousel
           activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-          className="s-banner-indicators"
-        />
-        {slides}
-      </Carousel>
+          next={next}
+          previous={previous}
+          className="slides-wrapper mx-4"
+        >
+          <CarouselIndicators
+            items={items}
+            activeIndex={activeIndex}
+            onClickHandler={goToIndex}
+            className="s-banner-indicators"
+          />
+          {slides}
+        </Carousel>
+      </Container>
     </Container>
   );
 };

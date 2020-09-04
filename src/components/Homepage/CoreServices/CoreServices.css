@@ -1,15 +1,38 @@
 .service-slider {
-  border: 1px solid red;
+  background-color: #e3e8eb;
+  padding-bottom: 7rem;
 }
 .slides-wrapper {
-  border: 1px solid red;
+  /* background-color: hsl(256, 38%, 90%); */
+  background-color: #19132a;
+}
+.spacer-div {
+  position: absolute;
+  height: 70px;
+  left: 0;
+  right: 0;
+  background-color: #e3e8eb;
+  width: 100%;
+  z-index: 1;
 }
 .newage {
   max-width: 600px;
 }
 .service-title {
   color: #8d1b3d;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
+}
+.service-title small {
+  font-size: 1.4rem;
+}
+.service-text-box {
+  background-color: #f4f4f4;
+  position: relative;
+  z-index: 999;
+  padding: 4.2rem 1rem;
+  margin: 0 6rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 1px hsl(256, 38%, 72%);
 }
 .service-title-inner {
   color: #19132a;
@@ -27,35 +50,34 @@
   font-size: 1.2rem;
   position: relative;
   text-align: center;
-  color: #44064e;
+  color: #481328;
   font-weight: 500;
 }
 .service-link::before {
   position: absolute;
   content: "";
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: hsl(148, 100%, 88%);
-  z-index: -1;
-  left: -15px;
-  top: -5px;
+  height: 2.5px;
+  width: 100%;
+  background-color: #8d1b3d;
+  bottom: -2px;
 }
-.arrow {
+/* .arrow {
   color: #19132a;
   font-size: 2rem;
   display: inline-block;
   margin-top: 10px;
-}
+} */
 .service-link:hover {
   text-decoration: none;
 }
-.service-link:hover .service-link::before {
-  width: 200px;
+.service-link:hover.service-link::before {
+  background-color: #811c92;
+  height: 3px;
 }
 
 .service-item {
-  height: 72vh;
+  height: 75vh;
+  min-height: 600px;
 }
 .slide-index {
   position: absolute;
@@ -86,4 +108,28 @@
 }
 .service-link:hover {
   color: #811c92;
+}
+
+/* our services slider */
+.service-img img {
+  /* height: 500px;
+  width: 750px; */
+  width: 100%;
+}
+.service-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #8d1b3d;
+}
+.service-title span {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.s-banner-indicators li {
+  height: 15px;
+  width: 15px;
+  margin: 0 0.5rem;
+  background-color: #481328;
+  border-radius: 50%;
+  bottom: -30px;
 }
