@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
 import { Container, Row, Col } from "reactstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Button from "../Button/Button";
 import "./ContactBanner.css";
-// import MapImage from "../../../static/images/c-map.svg";
 
 const ContactBanner = () => {
   return (
@@ -16,14 +14,7 @@ const ContactBanner = () => {
         >
           <div className="d-flex flex-column align-items-center">
             <h2 className="contact-b-title py-2">Get in touch with us</h2>
-            <Link to="/contactus" className="button d-flex align-items-center">
-              Let&apos;s Connect
-              {/* <FontAwesomeIcon icon="arrow-right" className="btn-icon" /> */}
-              <span />
-              <span />
-              <span />
-              <span />
-            </Link>
+            <Button buttonText="Let's Connect" />
           </div>
         </Col>
       </Row>
