@@ -28,48 +28,6 @@
   text-align: justify;
 }
 
-/* our services slider */
-.service-img img {
-  height: 500px;
-  width: 750px;
-}
-.service-title {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #8d1b3d;
-}
-.service-title span {
-  font-size: 2rem;
-  font-weight: 500;
-}
-.s-banner-indicators li {
-  height: 15px;
-  width: 15px;
-  margin: 0 0.5rem;
-  background-color: #481328;
-  border-radius: 50%;
-  bottom: -30px;
-}
-.s-banner-indicators {
-  bottom: -20px;
-}
-/* company stats */
-.stat-title {
-  font-size: 4rem;
-  font-weight: 700;
-  /* color: #19132a; */
-  color: hsl(237, 96%, 68%);
-}
-
-.stat-caption {
-  font-size: 1.2rem;
-  color: hsl(256, 38%, 35%);
-}
-
-.stats-wrapper {
-  background-color: #f8fbff;
-}
-
 .client {
   max-height: 70px;
 }
@@ -90,12 +48,7 @@
   .poc-letter {
     display: none;
   }
-  .stat-title {
-    font-size: 2.5rem;
-  }
-  .stat-caption {
-    font-size: 1rem;
-  }
+
   .service-title {
     font-size: 2rem;
   }
