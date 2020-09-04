@@ -4,15 +4,16 @@ import { useForm } from "react-hook-form";
 import fetch from "isomorphic-fetch";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "react-phone-number-input/style.css";
 import PhoneInput, {
   formatPhoneNumberIntl,
   parsePhoneNumber,
 } from "react-phone-number-input";
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
+import "react-phone-number-input/style.css";
 import "../css/contactus.css";
 import "../css/form-floating-label.css";
+import "../components/Button/Button.css";
 
 const Contact = () => {
   const [showContactInfo, setShowContactInfo] = useState(true);
@@ -163,16 +164,17 @@ const Contact = () => {
                 <div className="d-flex justify-content-center py-4">
                   <button
                     type="button"
-                    className=" button d-flex align-items-center"
+                    className="button d-flex align-items-center"
                     id="contactBtn"
                     onClick={() => {
                       return setShowContactInfo(!showContactInfo);
                     }}
                   >
-                    <span id="btnText" className="mr-3">
-                      Message Us
-                    </span>
-                    <FontAwesomeIcon icon="arrow-right" className="btn-icon" />
+                    Message Us
+                    <span />
+                    <span />
+                    <span />
+                    <span />
                   </button>
                 </div>
               </Container>
@@ -280,7 +282,7 @@ const Contact = () => {
                     <div className="col-12" />
                     <button
                       type="submit"
-                      className="button d-flex align-items-center btn-style my-4"
+                      className="button d-flex align-items-center"
                       disabled={submintForm}
                     >
                       {submintForm ? (
@@ -296,10 +298,10 @@ const Contact = () => {
                       ) : (
                         "Message us"
                       )}
-                      <FontAwesomeIcon
-                        icon="arrow-right"
-                        className="btn-icon"
-                      />
+                      <span />
+                      <span />
+                      <span />
+                      <span />
                     </button>
                   </div>
                 </form>
