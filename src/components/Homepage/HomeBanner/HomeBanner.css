@@ -1,0 +1,104 @@
+.h-banner-indicator {
+  transition: all 0.3s ease-in-out;
+  left: unset;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 1%;
+}
+.h-banner-indicator.carousel-indicators .active {
+  width: 50px !important;
+}
+.banner-carousel .carousel-item {
+  height: 90vh;
+  position: relative;
+}
+.home-banner-title {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-10%, -50%);
+  color: #fff;
+  font-size: 3.2rem;
+}
+.hero-slide {
+  background: linear-gradient(
+      125deg,
+      #00ff57 0%,
+      #010033 40%,
+      #460043 70%,
+      #f0ffc5 100%
+    ),
+    linear-gradient(55deg, #0014c9 0%, #410060 100%),
+    linear-gradient(300deg, #ffc700 0%, #001aff 100%),
+    radial-gradient(
+      135% 215% at 115% 40%,
+      #393939 0%,
+      #393939 40%,
+      #849561 calc(40% + 1px),
+      #849561 60%,
+      #eed690 calc(60% + 1px),
+      #eed690 80%,
+      #ecefd8 calc(80% + 1px),
+      #ecefd8 100%
+    ),
+    linear-gradient(
+      125deg,
+      #282d4f 0%,
+      #282d4f 40%,
+      #23103a calc(40% + 1px),
+      #23103a 70%,
+      #a0204c calc(70% + 1px),
+      #a0204c 88%,
+      #ff6c00 calc(88% + 1px),
+      #ff6c00 100%
+    );
+  background-blend-mode: overlay, screen, overlay, overlay, normal;
+}
+.slide-1 {
+  /* background-image: url("../../../static/images/home-banner/img1.jpg"); */
+  /* background-image: url("../../../static/images/home-banner/pic1.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.slide-2 {
+  /* background-image: url("../../../static/images/home-banner/img2.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.slide-3 {
+  /* background-image: url("../../../static/images/home-banner/img3.png"); */
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 576px) {
+  .slide-1 {
+    background-image: unset;
+    background-color: #19132a;
+  }
+  .slide-2 {
+    background-image: unset;
+    background-color: #19132a;
+  }
+  .slide-3 {
+    background-image: unset;
+    background-color: #19132a;
+  }
+  .home-banner-title {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+  }
+  .h-banner-indicator {
+    transition: all 0.3s ease-in-out;
+    left: unset;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 1%;
+  }
+}
