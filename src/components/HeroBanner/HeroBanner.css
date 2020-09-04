@@ -121,14 +121,7 @@
 .blockchain-sol {
   background-image: url("/images/service-pages/9-sol.svg");
 }
-/* 5. Internet of things */
-.iot {
-  /* background-image: url("/images/service-pages/iot.svg"); */
-  background-image: url("/images/service-pages/22.png");
-}
-.iot-sol {
-  background-image: url("/images/service-pages/7-sol.svg");
-}
+
 /* 6. Bigdata */
 .bigdata {
   background-image: url("/images/service-pages/9.png");
@@ -136,49 +129,7 @@
 .bigdata-sol {
   background-image: url("/images/service-pages/17-sol.png");
 }
-/* 7. Network Security */
-.network {
-  background-image: url("/images/service-pages/19.png");
-}
-.network-sol {
-  background-image: url("/images/service-pages/10-sol.jpg");
-}
-/* 8. Cyber Security */
-.cyber {
-  background-image: url("/images/service-pages/7.png");
-}
-.cyber-sol {
-  background-image: url("/images/service-pages/4-sol.jpg");
-}
-/* 9. application and data security */
-.data {
-  background-image: url("/images/service-pages/8.png");
-}
-.data-sol {
-  background-image: url("/images/service-pages/1-sol.jpg");
-}
 
-/* 10. governance and compliance */
-.compliance {
-  background-image: url("/images/service-pages/23.png");
-}
-.compliance-sol {
-  background-image: url("/images/service-pages/6-sol.jpg");
-}
-/* 11. endpoint and mobile security */
-.endpoint {
-  background-image: url("/images/service-pages/6.png");
-}
-.endpoint-sol {
-  background-image: url("/images/service-pages/2-sol.jpg");
-}
-/* 12. Identity and Access Management */
-.iam {
-  background-image: url("/images/service-pages/5.png");
-}
-.iam-sol {
-  background-image: url("/images/service-pages/3-sol.jpg");
-}
 /* 13. software development */
 .software {
   background-image: url("/images/service-pages/1.png");
@@ -193,20 +144,6 @@
 .mobile-sol {
   background-image: url("/images/service-pages/5-sol.png");
 }
-/* 15. Web development */
-.web {
-  background-image: url("/images/service-pages/13.png");
-}
-.web-sol {
-  background-image: url("/images/service-pages/21-sol.svg");
-}
-/* 16. Digital Marketing */
-.digital {
-  background-image: url("/images/service-pages/18.png");
-}
-.digital-sol {
-  background-image: url("/images/service-pages/20-sol.jpg");
-}
 
 /* 17. Outsourcing */
 .outsource {
@@ -214,14 +151,6 @@
 }
 .outsource-sol {
   background-image: url("/images/service-pages/12-sol.jpg");
-}
-
-/* 18. Data Center */
-.datacenter {
-  background-image: url("/images/service-pages/4.png");
-}
-.datacenter-sol {
-  background-image: url("/images/service-pages/22-sol.svg");
 }
 
 /* 19. System Infra */
@@ -239,18 +168,73 @@
 .enduser-sol {
   background-image: url("/images/service-pages/11-sol.jpg");
 }
-/* 21. Data Visualization */
-.datavis {
-  background-image: url("/images/service-pages/20.png");
+
+/* Cloud Services */
+.cloud-service {
+  background-image: url("/images/service-pages/cloud-service.png");
 }
-.datavis-sol {
-  background-image: url("/images/service-pages/13-sol.svg");
+.cloud-service-sol {
+  background-image: url("/images/service-pages/cloud-service-sol.png");
 }
 
-/* 22. Predictive Analysis */
-.predictive {
-  background-image: url("/images/service-pages/21.png");
+/* Contact Center Service */
+.contact-center {
+  background-image: url("/images/service-pages/contact-center.svg");
 }
-.predictive-sol {
-  background-image: url("/images/service-pages/19-sol.jpg");
+.contact-center-sol {
+  background-image: url("/images/service-pages/contact-center-sol.svg");
+}
+
+/* IT Infra Help Desk */
+.it-infra-help-desk {
+  background-image: url("/images/service-pages/it-infra-help-desk.svg");
+}
+.it-infra-help-desk-sol {
+  background-image: url("/images/service-pages/it-infra-help-desk-sol.svg");
+}
+
+/* Network and Telecom */
+.network-and-telecom {
+  background-image: url("/images/service-pages/network-and-telecom.svg");
+}
+.network-and-telecom-sol {
+  background-image: url("/images/service-pages/network-and-telecom.svg");
+}
+
+/* Storage Service */
+.storage-service {
+  background-image: url("/images/service-pages/storage-service.svg");
+}
+.storage-service-sol {
+  background-image: url("/images/service-pages/storage-service-sol.svg");
+}
+
+/* Cyber Security */
+.cyber-security {
+  background-image: url("/images/service-pages/cyber-security.png");
+}
+.cyber-security-sol {
+  background-image: url("/images/service-pages/cyber-security-sol.jpg");
+}
+/* Network Security */
+.network-security {
+  background-image: url("/images/service-pages/network-security.png");
+}
+.network-security-sol {
+  background-image: url("/images/service-pages/network-security-sol.jpg");
+}
+/* Data Center */
+.data-center {
+  background-image: url("/images/service-pages/data-center.png");
+}
+
+.data-center-sol {
+  background-image: url("/images/service-pages/data-center-sol.svg");
+}
+/* IOT */
+.iot {
+  background-image: url("/images/service-pages/iot.png");
+}
+.iot-sol {
+  background-image: url("/images/service-pages/iot-sol.svg");
 }
