@@ -90,14 +90,6 @@
 }
 /* ==== service details page banners ==== */
 
-/* 1. Robotic Process Automation */
-.rpa {
-  background-image: url("/images/service-pages/10.png");
-}
-.rpa-sol {
-  background-image: url("/images/service-pages/8-sol.svg");
-}
-
 /* 2. Artificial Intelligence */
 .ai {
   background-image: url("/images/service-pages/2.png");
@@ -237,4 +229,12 @@
 }
 .iot-sol {
   background-image: url("/images/service-pages/iot-sol.svg");
+}
+
+/* 1. Robotic Process Automation */
+.rpa {
+  background-image: url("/images/service-pages/rpa.png");
+}
+.rpa-sol {
+  background-image: url("/images/service-pages/rpa-sol.svg");
 }

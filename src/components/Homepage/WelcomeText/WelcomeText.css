@@ -1,0 +1,23 @@
+/* intellect logo font for company name */
+@font-face {
+  font-family: "NeuropoliticalRg-Regular";
+  src: url("../../../fonts/NeuropoliticalRg-Regular.ttf");
+  font-display: swap;
+}
+
+.overview {
+  background-color: #ebf3ff;
+}
+
+.welcome-title {
+  color: #8d1b3d;
+  font-size: 1.5rem;
+}
+.brand {
+  font-family: "NeuropoliticalRg-Regular", sans-serif;
+  font-size: 2.5rem;
+}
+.welcome-text {
+  font-size: 1.2rem;
+  text-align: justify;
+}

@@ -44,7 +44,9 @@
 .t-btn:active {
   outline: none;
 }
-
+.client {
+  max-height: 80px;
+}
 @media (max-width: 576px) {
   .t-btn {
     font-size: 1rem;
