@@ -61,7 +61,7 @@ const Footer = () => {
           </Col>
           <Col sm="12" md="4">
             <p className="m-0 text-center">
-              &copy;2018-2020 INTELLECT-QA. All rights reserved
+              &copy;2020 INTELLECT-QA. All rights reserved
             </p>
           </Col>
           <Col sm="12" md="4" className="privacy px-0">
