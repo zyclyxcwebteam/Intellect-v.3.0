@@ -1,3 +1,13 @@
+.home-banner {
+  height: 90vh;
+  width: 100%;
+  max-width: 99vw;
+}
+.banner-img {
+  max-height: 90vh;
+  width: 100%;
+}
+
 .h-banner-indicator {
   transition: all 0.3s ease-in-out;
   left: unset;
@@ -19,19 +29,21 @@
   left: 10%;
   top: 50%;
   transform: translate(-10%, -50%);
-  color: #fff;
-  font-size: 3.2rem;
+  color: #f4f4f4;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
 }
 .hero-slide {
   background: linear-gradient(
       125deg,
-      #00ff57 0%,
-      #010033 40%,
-      #460043 70%,
+      hsl(255deg 14% 35%) 0%,
+      hsl(256 38% 20% / 1) 40%,
+      #480d24 70%,
       #f0ffc5 100%
     ),
-    linear-gradient(55deg, #0014c9 0%, #410060 100%),
-    linear-gradient(300deg, #ffc700 0%, #001aff 100%),
+    linear-gradient(55deg, hsl(256 38% 12% / 1) 0%, hsl(256 38% 4% / 1) 100%),
+    linear-gradient(300deg, #356da1 0%, hsl(256 38% 12% / 1) 100%),
     radial-gradient(
       135% 215% at 115% 40%,
       #393939 0%,
@@ -46,13 +58,13 @@
     linear-gradient(
       125deg,
       #282d4f 0%,
-      #282d4f 40%,
+      #480d24 40%,
       #23103a calc(40% + 1px),
       #23103a 70%,
-      #a0204c calc(70% + 1px),
-      #a0204c 88%,
-      #ff6c00 calc(88% + 1px),
-      #ff6c00 100%
+      #19132a calc(70% + 1px),
+      #480d24 88%,
+      #19132a calc(88% + 1px),
+      #480d24 100%
     );
   background-blend-mode: overlay, screen, overlay, overlay, normal;
 }

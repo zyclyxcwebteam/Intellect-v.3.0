@@ -15,15 +15,16 @@ const WelcomeText = () => {
           </Col>
           <Col className="col-lg-9 col-12 d-flex align-items-center">
             <p className="mb-0 welcome-text">
-              A global automation technology provider leading the industry with
-              innovative ideas. With our agile collaborative approach our team
-              strives to provide custom solutions. These solutions together with
-              our next-gen technologies enable the businesses to outperform
-              their competition. Our deep expertise in the area of process
-              automation, infrastructure and application management is our
-              strategic asset. Whether you want to improve your business
-              efficiency or accelerate revenue growth, INTELLECT Technologies
-              will go an extra mile to get you there.
+              A leading technology service provider enables companies globally
+              to automate processes and transform digitally. Our solutions are a
+              combination of an agile collaborative approach and next-gen
+              technologies aimed to enhance your business performance. At
+              INTELLECT, our deep expertise in the area of process automation,
+              infrastructure, and application management is our strategic asset.
+              We have been catering to clients from a broad spectrum of
+              industries. So if you are looking to improve your business
+              efficiency or accelerate revenue growth, we will go the extra mile
+              to get you there..
             </p>
           </Col>
         </Row>

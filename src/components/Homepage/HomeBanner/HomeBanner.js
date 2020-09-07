@@ -12,20 +12,20 @@ const ImageCarousel = () => {
   const captions = [
     {
       altText: "Slide 1",
-      caption1: "Rooted in knowledge",
-      caption2: "built on trust",
+      caption1: "Optimizing Business performance",
+      caption2: "with Intelligent Automation",
       index: 1,
     },
     {
       altText: "Slide 2",
-      caption1: "Taking technology forward",
-      caption2: "with possibilities",
+      caption1: "Moving forward",
+      caption2: "with innovative solutions",
       index: 2,
     },
     {
       altText: "Slide 3",
-      caption1: "Save time and money with",
-      caption2: "business automation",
+      caption1: "Fueling change with",
+      caption2: "transformative technology",
       index: 3,
     },
   ];

@@ -14,11 +14,12 @@ const POC = () => {
           Free Proof of Concept
         </h2>
         <p className="text-justify py-md-4 py-2">
-          We believe in developing a trusting partnership with our clients by
-          offering free proof of concept as part of our value added services.
-          With this we demonstrate our work potential by creating an advanced
-          prototype of the project. This allows you to checkout its feasibility
-          in your business process, hence optimizing the experience.
+          We work towards establishing a trusting partnership with our clients
+          by offering free proof of concept as part of our value-added services
+          in some projects. It allows us to demonstrate our work potential by
+          developing an advanced prototype of the project. Also, you get an
+          opportunity to test its feasibility in your business process, hence
+          optimizing the experience.
         </p>
 
         <Row className="py-3">
@@ -28,7 +29,7 @@ const POC = () => {
               <Col sm="11" className="d-flex flex-column">
                 <h3 className="poc-card-title">Forecast</h3>
                 <p>
-                  Act as a tool to forecast the feasibility of the projects.
+                  Provides a tool to forecast the feasibility of the projects.
                 </p>
               </Col>
             </Row>
@@ -39,7 +40,7 @@ const POC = () => {
               <Col sm="1" />
               <Col sm="11" className="d-flex flex-column">
                 <h3 className="poc-card-title">Report</h3>
-                <p>Provides a complete report on project evaluation</p>
+                <p> Get a complete report on project evaluation.</p>
               </Col>
             </Row>
           </Col>
@@ -49,7 +50,7 @@ const POC = () => {
               <Col sm="1" />
               <Col sm="11" className="d-flex flex-column">
                 <h3 className="poc-card-title">Cost Effective</h3>
-                <p>Saves your businesses time and money</p>
+                <p>Saves your business time and money.</p>
               </Col>
             </Row>
           </Col>

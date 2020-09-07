@@ -23,7 +23,7 @@ const items = [
   {
     serviceText:
       "Artificial intelligence is a branch that allows creating smart machines based on the principle of human intelligence. Our team of AI experts works on machines to help them mimic and execute tasks, from the simplest to complex. It aims to include learning, reasoning, and perception.",
-    captionOne: "Building future with",
+    captionOne: "Embrace the future with",
     captionTwo: "Artificial Intelligence",
     imgLeft: true,
     key: 1,
@@ -32,7 +32,7 @@ const items = [
   {
     serviceText:
       "Robotic Process Automation automates repetitive human tasks by developing an interface with current IT systems without any complex integrations. We assist you to minimize operating costs and optimize performance by innovating, inventing and automating high-quality business processes.",
-    captionOne: "Improve business efficiency with",
+    captionOne: "Transform your business with",
     captionTwo: "Robotic Process Automation",
     imgLeft: false,
     key: 2,
@@ -50,7 +50,7 @@ const items = [
   {
     serviceText:
       "When you have to work in a world of devious cybercriminals, it’s important to ensure that your network and data are safe. We at ZYCLYX use a combination of effective hardware and software solutions to protect you from multiple layers of intrusions and breaches.",
-    captionOne: "Protect your Data with",
+    captionOne: "Effective Data protection with",
     captionTwo: "Network Security",
     imgLeft: false,
     key: 4,

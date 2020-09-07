@@ -13,12 +13,18 @@
 .stats-wrapper {
   background-color: #f8fbff;
 }
-.stats-icon {
-  height: 100px;
-}
+
 .stat-title {
   font-size: 2.5rem;
 }
 .stat-caption {
   font-size: 1rem;
+}
+/* .client-icon {
+} */
+.project-icon {
+  height: 50px;
+}
+.process-icon {
+  height: 50px;
 }

@@ -133,3 +133,15 @@
   border-radius: 50%;
   bottom: -30px;
 }
+
+@media (max-width: 576px) {
+  .service-title {
+    font-size: 2rem;
+  }
+  .service-title span {
+    font-size: 1.5rem;
+  }
+  .service-slider {
+    height: 85vh;
+  }
+}

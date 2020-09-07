@@ -20,3 +20,15 @@
   font-weight: 600;
   font-size: 2rem;
 }
+
+@media (max-width: 576px) {
+  .poc-title {
+    font-size: 1.3rem;
+  }
+  .poc-title-bg {
+    font-size: 1.7rem;
+  }
+  .poc-letter {
+    display: none;
+  }
+}

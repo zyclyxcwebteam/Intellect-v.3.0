@@ -7,7 +7,6 @@ import Industries from "../components/Homepage/Industries/Industries";
 import ProofOfConcept from "../components/Homepage/POC/POC";
 import CompanyStats from "../components/Homepage/CompanyStats/CompanyStats";
 import ClientsAndPartners from "../components/Homepage/ClientsAndPartners/ClientsAndPartners";
-import "../css/home.css";
 
 export default () => {
   return (

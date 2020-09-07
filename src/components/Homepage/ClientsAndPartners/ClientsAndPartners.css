@@ -54,4 +54,7 @@
   .client {
     max-height: 50px;
   }
+  .slick-arrow {
+    display: none !important;
+  }
 }

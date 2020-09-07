@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import RocketGIF from "../../../../static/images/rocket.gif";
-import LinechartGIF from "../../../../static/images/linechart.gif";
-import CustomGIF from "../../../../static/images/customize.gif";
+import SettingsGIF from "../../../../static/images/settings.gif";
+import UserGIF from "../../../../static/images/user.gif";
 import "./CompanyStats.css";
 
 const CompanyStats = () => {
@@ -13,7 +13,11 @@ const CompanyStats = () => {
           <Col sm={12} md={4}>
             <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
               <div>
-                <img src={CustomGIF} alt="clients" className="stats-icon" />
+                <img
+                  src={UserGIF}
+                  alt="clients"
+                  className="stats-icon client-icon"
+                />
               </div>
               <h3 className="stat-title text-center">20+</h3>
               <p className="stat-caption text-center">Clients Served</p>
@@ -22,7 +26,11 @@ const CompanyStats = () => {
           <Col sm={12} md={4}>
             <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
               <div>
-                <img src={RocketGIF} alt="clients" className="stats-icon" />
+                <img
+                  src={RocketGIF}
+                  alt="clients"
+                  className="stats-icon project-icon"
+                />
               </div>
               <h3 className="stat-title text-center">40+</h3>
               <p className="stat-caption text-center">Projects Delivered</p>
@@ -31,7 +39,11 @@ const CompanyStats = () => {
           <Col sm={3} md={4}>
             <div className="d-flex justify-content-center flex-column align-items-center shadow shadow-lg p-5 rounded-lg">
               <div>
-                <img src={LinechartGIF} alt="clients" className="stats-icon" />
+                <img
+                  src={SettingsGIF}
+                  alt="clients"
+                  className="stats-icon process-icon"
+                />
               </div>
               <h3 className="stat-title text-center">350+</h3>
               <p className="stat-caption text-center">Processess Automated</p>
