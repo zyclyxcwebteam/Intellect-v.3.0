@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import bankImg from "../../../../static/images/industries/bank.svg";
-import retailImg from "../../../../static/images/industries/retail.svg";
+import retailImg from "../../../../static/images/industries/r.svg";
 import telecomImg from "../../../../static/images/industries/telecom.svg";
-import healthImg from "../../../../static/images/industries/health-care.svg";
+import healthImg from "../../../../static/images/industries/h.svg";
 import logisticsImg from "../../../../static/images/industries/logistics.svg";
 import "./Industries.css";
 

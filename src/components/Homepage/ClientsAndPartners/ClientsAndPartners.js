@@ -14,7 +14,7 @@ import Monster from "../../../../static/images/clients/13.png";
 import RedTag from "../../../../static/images/clients/14.png";
 
 import Blueprism from "../../../../static/images/clients/4.jpg";
-import UIpath from "../../../../static/images/clients/7.jpg";
+import UIpath from "../../../../static/images/clients/7.png";
 import Automation from "../../../../static/images/clients/2.jpg";
 import Microsoft from "../../../../static/images/clients/8.png";
 import AntLabs from "../../../../static/images/clients/10.png";
