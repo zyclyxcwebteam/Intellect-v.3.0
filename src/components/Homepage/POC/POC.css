@@ -1,26 +1,67 @@
 .poc-wrapper {
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #e5e5e5;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  background: linear-gradient(
+      125deg,
+      hsl(255deg 14% 35%) 0%,
+      hsl(256 38% 20% / 1) 40%,
+      #480d24 70%,
+      #f0ffc5 100%
+    ),
+    linear-gradient(55deg, hsl(256 38% 12% / 1) 0%, hsl(256 38% 4% / 1) 100%),
+    linear-gradient(300deg, #356da1 0%, hsl(256 38% 12% / 1) 100%),
+    radial-gradient(
+      135% 215% at 115% 40%,
+      #393939 0%,
+      #393939 40%,
+      #849561 calc(40% + 1px),
+      #849561 60%,
+      #eed690 calc(60% + 1px),
+      #eed690 80%,
+      #ecefd8 calc(80% + 1px),
+      #ecefd8 100%
+    ),
+    linear-gradient(
+      125deg,
+      #282d4f 0%,
+      #480d24 40%,
+      #23103a calc(40% + 1px),
+      #23103a 70%,
+      #19132a calc(70% + 1px),
+      #480d24 88%,
+      #19132a calc(88% + 1px),
+      #480d24 100%
+    );
+  background-blend-mode: overlay, screen, overlay, overlay, normal;
+  color: #c1cad6;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .poc-title {
-  color: #ffffff;
+  color: #c1cad6;
   font-size: 2.5rem;
   font-weight: 600;
 }
 .poc-title small {
   font-size: 1.5rem;
-  color: #e5e5e5;
+  color: #dde1e4;
   font-weight: 500;
 }
 .poc-card-title {
-  color: #ffffff;
+  color: #f9f5ff;
   font-weight: 600;
   font-size: 2rem;
 }
-
+.forecast {
+  background-color: rgba(27, 18, 74, 0.8);
+}
+.report {
+  background-color: rgba(72, 13, 36, 0.8);
+  min-height: 178px;
+}
+.effective {
+  background-color: rgba(54, 109, 161, 0.8);
+  min-height: 178px;
+}
 @media (max-width: 576px) {
   .poc-title {
     font-size: 1.3rem;

@@ -24,11 +24,10 @@ const POC = () => {
 
         <Row className="py-3">
           <Col sm="12" md="4">
-            <Row>
-              <Col sm="1" />
-              <Col sm="11" className="d-flex flex-column">
+            <Row className="forecast py-4">
+              <Col className="d-flex flex-column align-items-center">
                 <h3 className="poc-card-title">Forecast</h3>
-                <p>
+                <p className="pt-3">
                   Provides a tool to forecast the feasibility of the projects.
                 </p>
               </Col>
@@ -36,21 +35,21 @@ const POC = () => {
           </Col>
 
           <Col sm="12" md="4">
-            <Row>
-              <Col sm="1" />
-              <Col sm="11" className="d-flex flex-column">
+            <Row className="report py-4">
+              <Col className="d-flex flex-column align-items-center">
                 <h3 className="poc-card-title">Report</h3>
-                <p> Get a complete report on project evaluation.</p>
+                <p className="pt-3">
+                  Get a complete report on project evaluation.
+                </p>
               </Col>
             </Row>
           </Col>
 
           <Col sm="12" md="4">
-            <Row>
-              <Col sm="1" />
-              <Col sm="11" className="d-flex flex-column">
+            <Row className="effective py-4">
+              <Col className="d-flex flex-column align-items-center">
                 <h3 className="poc-card-title">Cost Effective</h3>
-                <p>Saves your business time and money.</p>
+                <p className="pt-3">Saves your business time and money.</p>
               </Col>
             </Row>
           </Col>
