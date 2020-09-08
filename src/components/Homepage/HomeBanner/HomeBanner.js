@@ -20,24 +20,24 @@ const ImageCarousel = () => {
 
   const captions = [
     {
+      img: Fuel,
+      altText: "Slide 3",
+      caption1: "Fueling change with",
+      caption2: "transformative technology",
+      index: 1,
+    },
+    {
       img: Automation,
       altText: "Slide 1",
       caption1: "Optimizing Business performance",
       caption2: "with Intelligent Automation",
-      index: 1,
+      index: 2,
     },
     {
       img: Solution,
       altText: "Slide 2",
       caption1: "Moving forward",
       caption2: "with innovative solutions",
-      index: 2,
-    },
-    {
-      img: Fuel,
-      altText: "Slide 3",
-      caption1: "Fueling change with",
-      caption2: "transformative technology",
       index: 3,
     },
   ];

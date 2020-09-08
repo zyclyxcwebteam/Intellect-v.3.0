@@ -84,7 +84,7 @@ const Industries = () => {
           <Row>
             <Col>
               <div
-                className={`py-5 px-4 shadow shadow-sm rounded-lg text-center ind-menu-card ${
+                className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 0 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(0)}
@@ -94,7 +94,7 @@ const Industries = () => {
             </Col>
             <Col>
               <div
-                className={`py-5 px-4 shadow shadow-sm rounded-lg text-center ind-menu-card ${
+                className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 1 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(1)}
@@ -104,7 +104,7 @@ const Industries = () => {
             </Col>
             <Col>
               <div
-                className={`py-5 px-4 shadow shadow-sm rounded-lg text-center ind-menu-card ${
+                className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 2 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(2)}
@@ -114,7 +114,7 @@ const Industries = () => {
             </Col>
             <Col>
               <div
-                className={`py-5 px-4 shadow shadow-sm rounded-lg text-center ind-menu-card ${
+                className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 3 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(3)}
@@ -124,7 +124,7 @@ const Industries = () => {
             </Col>
             <Col>
               <div
-                className={`py-5 px-4 shadow shadow-sm rounded-lg text-center ind-menu-card ${
+                className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 4 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(4)}
