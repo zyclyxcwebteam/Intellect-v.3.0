@@ -28,6 +28,7 @@
   cursor: pointer;
   background-color: hsl(256, 38%, 15%);
   color: #a5a5a5;
+  padding: 2.5rem 0.4rem;
 }
 .ind-text {
   min-height: 96px;
