@@ -8,6 +8,7 @@ import PhoneInput, {
   formatPhoneNumberIntl,
   parsePhoneNumber,
 } from "react-phone-number-input";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import "react-phone-number-input/style.css";
@@ -90,6 +91,12 @@ const Contact = () => {
       title="Contact us"
       description="We are happy to assist you with your queries"
     >
+      <Helmet>
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
+      </Helmet>
       <HeroBanner
         title="We are happy to assist you with your queries"
         imageClass="contact"
