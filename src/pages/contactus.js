@@ -8,7 +8,7 @@ import PhoneInput, {
   formatPhoneNumberIntl,
   parsePhoneNumber,
 } from "react-phone-number-input";
-import { Helmet } from "react-helmet";
+
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import "react-phone-number-input/style.css";
@@ -24,12 +24,16 @@ const Contact = () => {
   const [value, setValue] = useState();
 
   useEffect(() => {
-    fetch("http://ip-api.com/json/")
+    // fetch("http://ip-api.com/json/")
+    // fetch("https://freegeoip.app/json/")
+    fetch(
+      "https://api.ipgeolocation.io/ipgeo?apiKey=16c06a48afce45e5a1c1427e1c4b628f"
+    )
       .then(res => {
         return res.json();
       })
       .then(data => {
-        setCountry(data.countryCode);
+        setCountry(data.country_code2);
       });
   }, []);
 
@@ -91,12 +95,6 @@ const Contact = () => {
       title="Contact us"
       description="We are happy to assist you with your queries"
     >
-      <Helmet>
-        <meta
-          httpEquiv="Content-Security-Policy"
-          content="upgrade-insecure-requests"
-        />
-      </Helmet>
       <HeroBanner
         title="We are happy to assist you with your queries"
         imageClass="contact"
