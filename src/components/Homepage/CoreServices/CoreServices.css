@@ -112,9 +112,8 @@
 
 /* our services slider */
 .service-img img {
-  /* height: 500px;
-  width: 750px; */
-  width: 100%;
+  max-width: 100%;
+  margin-top: 70px;
 }
 .service-title {
   font-size: 2rem;

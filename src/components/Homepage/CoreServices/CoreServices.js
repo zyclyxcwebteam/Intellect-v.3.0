@@ -87,9 +87,13 @@ const OurServices = () => {
         key={item.src}
         className="service-item"
       >
-        <Row>
+        <Row className="h-100">
           {/* {item.imgLeft && ( */}
-          <Col md={6} sm={12} className="service-img d-md-block d-none">
+          <Col
+            md={6}
+            sm={12}
+            className="service-img d-md-flex align-items-center justify-content-center d-none"
+          >
             <img src={item.img} alt="new age" />
           </Col>
           {/* )} */}
