@@ -12,6 +12,9 @@ import {
   faPhone,
   faEnvelope,
   faPaperPlane,
+  faUsers,
+  faRocket,
+  faCog,
 } from "@fortawesome/free-solid-svg-icons";
 import SEO from "../SEO/seo";
 import Navbar from "../NavBar/Navbar";
@@ -33,7 +36,10 @@ library.add(
   faPhone,
   faEnvelope,
   faRocketchat,
-  faPaperPlane
+  faPaperPlane,
+  faUsers,
+  faRocket,
+  faCog
 );
 
 const layout = props => {
