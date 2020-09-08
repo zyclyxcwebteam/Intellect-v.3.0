@@ -80,7 +80,7 @@ const ImageCarousel = () => {
             md="5"
             className="d-flex justify-content-center align-items-center"
           >
-            <img src={item.img} alt="automation" />
+            <img src={item.img} alt="automation" className="banner-img" />
           </Col>
         </Row>
       </CarouselItem>
