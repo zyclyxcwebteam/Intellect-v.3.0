@@ -60,7 +60,8 @@
 
 .footer .contact-links li a {
   color: #19132a;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 10px;
 }
 
 .footer .contact-links li a {
