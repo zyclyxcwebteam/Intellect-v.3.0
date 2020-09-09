@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Particles from "react-particles-js";
 import {
   Carousel,
   CarouselItem,
@@ -7,7 +6,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-// import img from "../../../../static/images/tech.svg";
 import "./HomeBanner.css";
 import Automation from "../../../../static/images/home-banner/manufacturing.svg";
 import Fuel from "../../../../static/images/home-banner/project.svg";
@@ -18,7 +16,7 @@ const ImageCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
-  const captions = [
+  const SLIDES_CONTENT = [
     {
       img: Fuel,
       altText: "Slide 3",
@@ -44,13 +42,15 @@ const ImageCarousel = () => {
 
   const nextSlide = () => {
     if (animating) return;
-    const nextIndex = activeIndex === captions.length - 1 ? 0 : activeIndex + 1;
+    const nextIndex =
+      activeIndex === SLIDES_CONTENT.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
   };
 
   const previousSlide = () => {
     if (animating) return;
-    const nextIndex = activeIndex === 0 ? captions.length - 1 : activeIndex - 1;
+    const nextIndex =
+      activeIndex === 0 ? SLIDES_CONTENT.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
 
@@ -59,20 +59,24 @@ const ImageCarousel = () => {
     setActiveIndex(newIndex);
   };
 
-  const slides = captions.map(item => {
+  const slides = SLIDES_CONTENT.map(slide => {
     return (
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-        key={item.index}
-        className={`hero-slide slide-${item.index}`}
+        key={slide.index}
+        className={`hero-slide slide-${slide.index}`}
       >
         <Row className="h-100">
-          <Col sm="12" md="7" className="title-container">
+          <Col
+            sm="12"
+            md="7"
+            className="title-container d-flex justify-content-center align-items-center"
+          >
             <h1 className="home-banner-title">
-              <span>{item.caption1}</span>
+              <span>{slide.caption1}</span>
               <br />
-              <span>{item.caption2}</span>
+              <span>{slide.caption2}</span>
             </h1>
           </Col>
           <Col
@@ -80,7 +84,7 @@ const ImageCarousel = () => {
             md="5"
             className="d-flex justify-content-center align-items-center"
           >
-            <img src={item.img} alt="automation" className="banner-img" />
+            <img src={slide.img} alt="automation" className="banner-img" />
           </Col>
         </Row>
       </CarouselItem>
@@ -95,7 +99,7 @@ const ImageCarousel = () => {
       className="banner-carousel"
     >
       <CarouselIndicators
-        items={captions}
+        items={SLIDES_CONTENT}
         activeIndex={activeIndex}
         onClickHandler={goToSlide}
         className="h-banner-indicator"

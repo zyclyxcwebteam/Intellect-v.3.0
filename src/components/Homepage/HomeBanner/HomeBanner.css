@@ -25,15 +25,11 @@
   position: relative;
 }
 .home-banner-title {
-  position: absolute;
-  left: 7%;
-  top: 50%;
-  transform: translate(0%, -50%);
   color: #f4f4f4;
-  font-size: 3.3rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 600;
-  /* text-align: center; */
+  text-align: center;
   width: 100%;
 }
 .hero-slide {
@@ -70,39 +66,10 @@
     );
   background-blend-mode: overlay, screen, overlay, overlay, normal;
 }
-.slide-1 {
-  background-size: cover;
-  background-position: center;
-}
-.slide-2 {
-  background-size: cover;
-  background-position: center;
-}
-.slide-3 {
-  background-size: cover;
-  background-position: center;
-}
+
 @media (max-width: 576px) {
-  .slide-1 {
-    background-image: unset;
-    background-color: #19132a;
-  }
-  .slide-2 {
-    background-image: unset;
-    background-color: #19132a;
-  }
-  .slide-3 {
-    background-image: unset;
-    background-color: #19132a;
-  }
-  .title-container {
-    display: flex;
-    align-items: flex-end;
-  }
   .home-banner-title {
     font-size: 1.5rem;
-    text-align: center;
-    position: static;
   }
   .h-banner-indicator {
     transition: all 0.3s ease-in-out;
@@ -113,5 +80,25 @@
     align-items: flex-end;
     justify-content: center;
     margin-right: 1%;
+  }
+}
+@media (max-width: 1200px) {
+  .home-banner-title {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .home-banner-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .home-banner-title {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 576px) {
+  .home-banner-title {
+    font-size: 1.5rem;
   }
 }
