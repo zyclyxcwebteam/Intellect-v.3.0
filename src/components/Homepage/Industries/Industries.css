@@ -1,7 +1,9 @@
 .ind-wrapper {
-  height: 70vh;
-  min-height: 550px;
+  /* height: 70vh;
+  min-height: 550px; */
+  height: max(70vh, 550px);
 }
+
 .left-block {
   background-color: hsl(256, 38%, 75%);
 }
@@ -32,4 +34,10 @@
 }
 .ind-text {
   min-height: 96px;
+}
+
+@media (max-width: 576px) {
+  .ind-wrapper {
+    height: auto;
+  }
 }

@@ -74,7 +74,9 @@ const Industries = () => {
           <h2 className="text-center py-4 ind-section-title">
             INDUSTRY EXPERTISE
           </h2>
-          <img src={indContent.img} alt="telecom industry" />
+          <div className="ind-img">
+            <img src={indContent.img} alt="telecom industry" />
+          </div>
         </Col>
         <Col sm="12" md="7" className="right-block">
           <div className="p-5">
