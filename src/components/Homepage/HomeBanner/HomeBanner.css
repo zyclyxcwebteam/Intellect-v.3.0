@@ -30,7 +30,7 @@
   top: 50%;
   transform: translate(0%, -50%);
   color: #f4f4f4;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   line-height: 1.5;
   font-weight: 600;
   /* text-align: center; */
@@ -95,11 +95,14 @@
     background-image: unset;
     background-color: #19132a;
   }
+  .title-container {
+    display: flex;
+    align-items: flex-end;
+  }
   .home-banner-title {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    position: static;
   }
   .h-banner-indicator {
     transition: all 0.3s ease-in-out;
