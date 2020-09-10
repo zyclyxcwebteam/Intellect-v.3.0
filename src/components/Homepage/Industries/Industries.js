@@ -79,59 +79,68 @@ const Industries = () => {
           </div>
         </Col>
         <Col sm="12" md="7" className="right-block">
-          <div className="p-5">
-            <h3 className="py-5 ind-title">{indContent.title}</h3>
+          <div className="p-md-5 p-2">
+            <h3 className="py-md-5  py-2 ind-title">{indContent.title}</h3>
             <p className="text-justify ind-text">{indContent.text}</p>
           </div>
-          <Row>
-            <Col>
+          <Row className="py-md-2 py-3">
+            <Col className="px-md-3 px-1">
               <div
                 className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 0 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(0)}
               >
-                <h4 className="font-weight-bold">Banking</h4>
+                <h4 className="font-weight-bold d-none d-md-block">Banking</h4>
+                <h4 className="font-weight-bold d-md-none d-block">B</h4>
               </div>
             </Col>
-            <Col>
+            <Col className="px-md-3 px-1">
               <div
                 className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 1 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(1)}
               >
-                <h4 className="font-weight-bold">Telecom</h4>
+                <h4 className="font-weight-bold d-none d-md-block">Telecom</h4>
+                <h4 className="font-weight-bold d-block d-md-none">T</h4>
               </div>
             </Col>
-            <Col>
+            <Col className="px-md-3 px-1">
               <div
                 className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 2 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(2)}
               >
-                <h4 className="font-weight-bold">Retail</h4>
+                <h4 className="font-weight-bold d-none d-md-block">Retail</h4>
+                <h4 className="font-weight-bold d-md-none d-block">R</h4>
               </div>
             </Col>
-            <Col>
+            <Col className="px-md-3 px-1">
               <div
                 className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 3 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(3)}
               >
-                <h4 className="font-weight-bold">Healthcare</h4>
+                <h4 className="font-weight-bold d-none d-md-block">
+                  Healthcare
+                </h4>
+                <h4 className="font-weight-bold d-md-none d-block">H</h4>
               </div>
             </Col>
-            <Col>
+            <Col className="px-md-3 px-1">
               <div
                 className={`shadow shadow-sm rounded-lg text-center ind-menu-card ${
                   indContent.index === 4 && "active"
                 }`}
                 onMouseEnter={() => updateIndustryText(4)}
               >
-                <h4 className="font-weight-bold">Logistics</h4>
+                <h4 className="font-weight-bold d-none d-md-block">
+                  Logistics
+                </h4>
+                <h4 className="font-weight-bold d-md-none d-block">L</h4>
               </div>
             </Col>
           </Row>

@@ -38,8 +38,23 @@
 .ind-img img {
   max-width: 100%;
 }
+
 @media (max-width: 576px) {
   .ind-wrapper {
     height: auto;
+  }
+  .ind-section-title {
+    font-size: 1.6rem;
+  }
+  .ind-img {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .ind-menu-card {
+    padding: 1rem 0rem;
+  }
+  .right-block h3 {
+    font-size: 2rem;
   }
 }
