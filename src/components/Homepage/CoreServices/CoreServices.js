@@ -94,7 +94,7 @@ const OurServices = () => {
             sm={12}
             className="service-img d-md-flex align-items-center justify-content-center d-none"
           >
-            <img src={item.img} alt="new age" />
+            <img src={item.img} alt="new age" className="core-service-img" />
           </Col>
           {/* )} */}
           <Col md={6} sm={12} className="">
