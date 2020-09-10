@@ -17,77 +17,14 @@
   font-size: 2.5rem;
   color: #1d6da2;
 }
-
-/* Icon Animations */
-@keyframes rising {
-  0% {
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%);
-    opacity: 0.5;
-  }
-  50% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 0.5;
-  }
+.process-icon {
+  height: 50px;
+  margin-right: 1rem;
 }
-
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
+.projects-icon {
+  height: 70px;
 }
-@keyframes pulse {
-  0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  50% {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-}
-.fa-rising {
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: rising;
-}
-.fa-spin {
-  animation-duration: 1.5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: spin;
-}
-.fa-pulse {
-  animation-duration: 1.5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: pulse;
+.clients-icon {
+  height: 50px;
+  margin-right: 1rem;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ClientsGIF from "../../../../static/images/user.gif";
+import ProjectsGIF from "../../../../static/images/rocket.gif";
+import ProcessGIF from "../../../../static/images/settings.gif";
 import "./CompanyStats.css";
 
 const StatsCard = props => {
@@ -9,10 +11,7 @@ const StatsCard = props => {
     <Col sm={12} md={4}>
       <div className="d-flex flex-column justify-content-center align-items-center shadow shadow-lg p-4 rounded-lg stats">
         <div className="d-flex align-items-center justify-content-center">
-          <FontAwesomeIcon
-            icon={icon}
-            className={`mr-4 stat-icon ${animation}`}
-          />
+          <img src={icon} alt="clients" className={`${animation}`} />
           <div className="d-flex flex-column py-3">
             <h3 className="stat-title text-center">{`${number}+`}</h3>
           </div>
@@ -30,21 +29,21 @@ const CompanyStats = () => {
         <Row>
           <StatsCard
             text="Clients Served"
-            icon="users"
+            icon={ClientsGIF}
             number="20"
-            animation="fa-pulse"
+            animation="clients-icon"
           />
           <StatsCard
             text="Projects Delivered"
-            icon="rocket"
+            icon={ProjectsGIF}
             number="40"
-            animation="fa-rising"
+            animation="projects-icon"
           />
           <StatsCard
             text="Processess Automated"
-            icon="cog"
+            icon={ProcessGIF}
             number="350"
-            animation="fa-spin"
+            animation="process-icon"
           />
         </Row>
       </Container>
