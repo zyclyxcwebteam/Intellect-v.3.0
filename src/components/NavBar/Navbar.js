@@ -160,6 +160,11 @@ const Header = props => {
                         <li>
                           <Link to="/outsourcing-services">Outsourcing</Link>
                         </li>
+                        <li>
+                          <Link to="/staffing-solutions">
+                            Staffing Solutions
+                          </Link>
+                        </li>
                       </ul>
                     </Col>
                   </Container>
