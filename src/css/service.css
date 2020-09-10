@@ -14,7 +14,20 @@
   font-size: 2.5rem;
   font-weight: 600;
 }
-
+.staff-o-title {
+  color: #8d1b3d;
+  font-weight: 600;
+}
+.staff-o-text {
+  font-size: 1rem !important;
+}
+.staff-m-title {
+  color: #111b33;
+  font-weight: 600;
+}
+.staff-m-text {
+  color: #555555;
+}
 /* .sol-image,
 .sol-cards {
   height: 90vh;
