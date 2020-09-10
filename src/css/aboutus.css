@@ -59,7 +59,7 @@
   margin: 3rem 0.4rem;
 }
 .c-title {
-  color: #de9263;
+  color: #1d6da2;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -122,10 +122,10 @@
 .h-bottom {
   top: 70px;
   padding: 1rem;
-  background-color: hsl(148, 100%, 82%);
+  background-color: hsl(342, 68%, 85%);
 }
 .h-bottom:nth-child(odd) {
-  background-color: hsl(205, 72%, 87%);
+  background-color: hsl(205, 72%, 90%);
 }
 .m-btn {
   background-color: transparent;
