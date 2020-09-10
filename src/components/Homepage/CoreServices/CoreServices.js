@@ -11,9 +11,9 @@ import {
 import "./CoreServices.css";
 import SectionTitle from "../../SectionTitle/SectionTitle";
 import NewAgeBG from "../../../../static/images/services/4.png";
-import NetworkBG from "../../../../static/images/services/3.png";
-import RPABG from "../../../../static/images/services/2.png";
-import OCRBG from "../../../../static/images/services/1.png";
+import NetworkBG from "../../../../static/images/services/NETWORK.png";
+import RPABG from "../../../../static/images/services/RPA.png";
+import OCRBG from "../../../../static/images/services/OCR.png";
 
 const items = [
   {
