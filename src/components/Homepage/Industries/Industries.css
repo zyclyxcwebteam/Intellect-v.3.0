@@ -35,7 +35,9 @@
 .ind-text {
   min-height: 96px;
 }
-
+.ind-img img {
+  max-width: 100%;
+}
 @media (max-width: 576px) {
   .ind-wrapper {
     height: auto;
