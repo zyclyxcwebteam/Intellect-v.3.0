@@ -2,23 +2,28 @@
   "title": "Enterprise Services",
   "path": "enterprise-services",
   "caption": "Delivering valuable insights to optimize operations",
-  "overview": "It contains different categories of large and diverse sets of data which are classified as structured, semi-structured and unstructured respectively. Our team uses various sources to extract this data that may be of varying size like terabytes to zettabytes. The solutions are designed to not just fetch more data but to provide valuable insights through its analysis. Thus leading to improved strategic plans and decision making for your businesses. This can be used in different industries like Banking, Advertising, Media Planning and more.",
+  "overview": "At INTELLECT, our enterprise services cater to various models. These engagement models will be based on the value added as per customer  needs. Various models such as Onsite, Offshore and Offsite are available to meet the needs of customers. Various commercial models such as Time and Materials, Fixed Price, Risk and Rewards,Co-sourcing models are available for engagement.  Innovative commercial models based on Macro / Micro economic factors of the country to provide right support to customers as and when required.",
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "bigdata",
   "solImage": "bigdata-sol",
   "scroll": false,
+
   "services": [
     {
-      "title": "Analytics",
-      "content": "At Zylcyx , our Analysts collate the organizations data to help identify new business opportunities. Thus, helping you develop intelligent business strategies, efficient operations, increased profits and more satisfied customers."
+      "title": "Enterprise Consultancy",
+      "content": "Consulting, Application Portfolio  Optimization, Product evaluation for  Enterprise products."
     },
     {
-      "title": "Management",
-      "content": "Our efforts are aimed to develop solutions that will make it easier to monitor data usage, study real-time analytics, reduce costs, improve data ingestion and manage huge workloads."
+      "title": "Enterprise Products",
+      "content": "Configuring, Implementing, customizing,  testing, maintaining and supporting  Enterprise products such as Oracle,  Microsoft, SAP etc."
     },
     {
-      "title": "Integration",
-      "content": "We gather crucial relevant insights from different sources like internet reports, social media, traditional data, IoT and machine learning. All of this data is then merged to form a single framework."
+      "title": "IV & V Services",
+      "content": "Independent Verification and Validation  services utilizing latest test methodologies. Providing catalogue based testing services."
+    },
+    {
+      "title": "Managed Services",
+      "content": "Dedicated and shared application support  services. Support provided is both onsite  and through INTELLECT support centres."
     }
   ]
 }

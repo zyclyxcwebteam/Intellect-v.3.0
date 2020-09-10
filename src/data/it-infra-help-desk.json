@@ -2,23 +2,19 @@
   "title": "IT Infra Help Desk",
   "path": "it-infra-help-desk",
   "caption": "Delivering valuable insights to optimize operations",
-  "overview": "It contains different categories of large and diverse sets of data which are classified as structured, semi-structured and unstructured respectively. Our team uses various sources to extract this data that may be of varying size like terabytes to zettabytes. The solutions are designed to not just fetch more data but to provide valuable insights through its analysis. Thus leading to improved strategic plans and decision making for your businesses. This can be used in different industries like Banking, Advertising, Media Planning and more.",
+  "overview": "We offer you a single point of connection between the service provider and users for day to day operations. A typical service desk handles incidents (service disruptions) and service requests (routine service related tasks) as well as managing user communications for things like outages and planned service changes. It has a wide scope and provides a single place for the customer to meet all of their IT needs.",
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "it-infra-help-desk",
   "solImage": "it-infra-help-desk-sol",
   "scroll": false,
   "services": [
     {
-      "title": "Analytics",
-      "content": "At Zylcyx , our Analysts collate the organizations data to help identify new business opportunities. Thus, helping you develop intelligent business strategies, efficient operations, increased profits and more satisfied customers."
+      "title": "The primary point of contact",
+      "content": "Our main aim is to ensure the help desk provides your organization assistance in monitoring / owning incidents, addressing user requests. Additionally, the service desk often also has an active role in capturing change requests, maintaining 3rd party support contracts, managing software licenses, and assisting with problem management."
     },
     {
-      "title": "Management",
-      "content": "Our efforts are aimed to develop solutions that will make it easier to monitor data usage, study real-time analytics, reduce costs, improve data ingestion and manage huge workloads."
-    },
-    {
-      "title": "Integration",
-      "content": "We gather crucial relevant insights from different sources like internet reports, social media, traditional data, IoT and machine learning. All of this data is then merged to form a single framework."
+      "title": "Communication Channel",
+      "content": "Providing communication channel between other service management functions and the user community."
     }
   ]
 }

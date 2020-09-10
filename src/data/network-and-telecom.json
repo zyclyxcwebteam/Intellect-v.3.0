@@ -1,24 +1,25 @@
 {
   "title": "Network and Telecom",
   "path": "network-and-telecom",
-  "caption": "Delivering valuable insights to optimize operations",
-  "overview": "It contains different categories of large and diverse sets of data which are classified as structured, semi-structured and unstructured respectively. Our team uses various sources to extract this data that may be of varying size like terabytes to zettabytes. The solutions are designed to not just fetch more data but to provide valuable insights through its analysis. Thus leading to improved strategic plans and decision making for your businesses. This can be used in different industries like Banking, Advertising, Media Planning and more.",
-  "solTitle": "Converting raw data into actionable insights",
+  "caption": "Prepare for success with cutting edge Network & Telecom solutions.",
+  "overview": "Our Network and Telecom segment offers services to end-users by developing and delivering all forms of IT infrastructure and voice services that meet customers' needs. We provide a deep understanding of wireless end to end planning strategies, implementation, and operations with multi-disciplinary wireless telecommunications services.",
+  "solTitle": "Adopt the latest technologies to support your rapidly growing network needs",
   "bannerImage": "network-and-telecom",
   "solImage": "network-and-telecom",
   "scroll": false,
+
   "services": [
     {
-      "title": "Analytics",
-      "content": "At Zylcyx , our Analysts collate the organizations data to help identify new business opportunities. Thus, helping you develop intelligent business strategies, efficient operations, increased profits and more satisfied customers."
+      "title": " Network Access",
+      "content": "We provide communication links to businesses by connecting them with immediate service providers offering smoother network connectivity."
     },
     {
-      "title": "Management",
-      "content": "Our efforts are aimed to develop solutions that will make it easier to monitor data usage, study real-time analytics, reduce costs, improve data ingestion and manage huge workloads."
+      "title": "Security",
+      "content": "Get strong encryption over your Real-Time Protocol (RTP) and  Transport Layer Security (TLS) that ensures that data transmissions are protected. Also, our built-in mechanisms provide anti-spoofing and prevent unauthorized SIP traffic."
     },
     {
-      "title": "Integration",
-      "content": "We gather crucial relevant insights from different sources like internet reports, social media, traditional data, IoT and machine learning. All of this data is then merged to form a single framework."
+      "title": "Stable Network ",
+      "content": "Our team fixes you up with an upgradable network to match up when there is an increase in usage of network bandwidth, thus maintaining a stable connection throughout your organization."
     }
   ]
 }

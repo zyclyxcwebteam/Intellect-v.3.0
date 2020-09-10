@@ -2,23 +2,31 @@
   "title": "Contact Center",
   "path": "contact-center",
   "caption": "Delivering valuable insights to optimize operations",
-  "overview": "It contains different categories of large and diverse sets of data which are classified as structured, semi-structured and unstructured respectively. Our team uses various sources to extract this data that may be of varying size like terabytes to zettabytes. The solutions are designed to not just fetch more data but to provide valuable insights through its analysis. Thus leading to improved strategic plans and decision making for your businesses. This can be used in different industries like Banking, Advertising, Media Planning and more.",
+  "overview": "The contact center is a platform for handling multi-channel customer interaction and customer service, including mobile, email, live chat, and social media. Customer-facing teams use this software as a single platform to handle interactions from all channels. Thus increasing the odds of delivering great client interactions by engaging in customer-related discussions by 100% and thus addressing their concerns.",
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "contact-center",
   "solImage": "contact-center-sol",
   "scroll": false,
   "services": [
     {
+      "title": "Automatic Call Distributor (ACD)",
+      "content": "Automation and AI Our ACD system smartly routes incoming calls to agents based on fixed conditions, creating the backbone of your call center and streamlines the process of customer communication."
+    },
+    {
+      "title": "Interactive Voice Response (IVR)",
+      "content": "We ensure that our IVR systems will help your customers find an appropriate solution by connecting them with the concerned department quickly. Thus helping you lower operational costs and increase the productivity of your team."
+    },
+    {
+      "title": "Outbound Predictive Dialer (OPD)",
+      "content": "The OPD technology ensures that your dialing system intelligently predicts the agent availability, auto-calibrates the dialing rate and connects to live prospects. It is able to handle multiple numbers at the same time connecting only to a live agent when a contact answers their phone."
+    },
+    {
+      "title": "Workforce Optimization",
+      "content": "At INTELLECT, we focus on cutting down your operational costs and provide other important performance metrics to help your business get maximum benefits from employees anytime"
+    },
+    {
       "title": "Analytics",
-      "content": "At Zylcyx , our Analysts collate the organizations data to help identify new business opportunities. Thus, helping you develop intelligent business strategies, efficient operations, increased profits and more satisfied customers."
-    },
-    {
-      "title": "Management",
-      "content": "Our efforts are aimed to develop solutions that will make it easier to monitor data usage, study real-time analytics, reduce costs, improve data ingestion and manage huge workloads."
-    },
-    {
-      "title": "Integration",
-      "content": "We gather crucial relevant insights from different sources like internet reports, social media, traditional data, IoT and machine learning. All of this data is then merged to form a single framework."
+      "content": "This allows you to automate the Quality Management processes including Monitoring and scoring. While also covering interaction analytics to help understand the bigger picture of customer interactions."
     }
   ]
 }
