@@ -28,7 +28,7 @@
 .service-text-box {
   background-color: #f4f4f4;
   position: relative;
-  z-index: 999;
+
   padding: 4.2rem 1rem;
   margin: 0 6rem;
   border-radius: 1rem;
@@ -45,8 +45,6 @@
 }
 
 .service-link {
-  margin-top: 4rem;
-  margin-left: 4rem;
   font-size: 1.2rem;
   position: relative;
   text-align: center;
@@ -136,13 +134,30 @@
   max-height: 500px;
 }
 @media (max-width: 576px) {
+  .service-slider {
+    padding-bottom: 1rem;
+    background-color: #f4f4f4;
+  }
   .service-title {
     font-size: 2rem;
   }
-  .service-title span {
-    font-size: 1.5rem;
+  .service-title small {
+    font-size: 1.2rem;
   }
-  .service-slider {
-    height: 85vh;
+  .service-text-box {
+    padding: 0;
+    margin: 0 0.2rem;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .spacer-div {
+    display: none;
+  }
+  .service-item {
+    height: 75vh;
+    min-height: 370px;
+  }
+  .slides-wrapper {
+    background-color: #f4f4f4;
   }
 }

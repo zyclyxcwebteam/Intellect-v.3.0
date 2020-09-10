@@ -88,16 +88,15 @@ const OurServices = () => {
         className="service-item"
       >
         <Row className="h-100">
-          {/* {item.imgLeft && ( */}
           <Col
-            md={6}
-            sm={12}
+            md="6"
+            sm="12"
             className="service-img d-md-flex align-items-center justify-content-center d-none"
           >
             <img src={item.img} alt="new age" className="core-service-img" />
           </Col>
-          {/* )} */}
-          <Col md={6} sm={12} className="">
+
+          <Col md="6" sm="12" className="">
             <div className="service-text-box">
               <h2 className="service-title text-center">
                 <small>{item.captionOne}</small>
@@ -105,34 +104,29 @@ const OurServices = () => {
                 {item.captionTwo}
               </h2>
               <p className="px-md-5 px-2 text-justify">{item.serviceText}</p>
-              <p className="text-center mt-5">
+              <p className="text-center mt-md-5">
                 <Link to={item.linkTo} className="service-link text-center">
                   Discover More
                 </Link>
               </p>
             </div>
           </Col>
-          {/* {!item.imgLeft && (
-            <Col sm={12} md={6} className="service-img d-md-block d-none">
-              <img src={item.src} alt="new age" />
-            </Col>
-          )} */}
         </Row>
       </CarouselItem>
     );
   });
   return (
-    <Container fluid className="service-slider">
+    <Container fluid className="service-slider py-md-0 py-3">
       <Container>
         <SectionTitle title="Core Services" />
       </Container>
-      <Container fluid className="px-5">
+      <Container fluid className="px-md-5 px-1 py-md-1 py-3">
         <div className="spacer-div" />
         <Carousel
           activeIndex={activeIndex}
           next={next}
           previous={previous}
-          className="slides-wrapper mx-4"
+          className="slides-wrapper mx-md-4 mx-0"
         >
           <CarouselIndicators
             items={items}
