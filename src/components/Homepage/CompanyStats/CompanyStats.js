@@ -9,7 +9,7 @@ const StatsCard = props => {
   const { icon, animation, number, text } = props;
   return (
     <Col sm={12} md={4}>
-      <div className="d-flex flex-column justify-content-center align-items-center shadow shadow-lg p-4 rounded-lg stats">
+      <div className="d-flex flex-column justify-content-center align-items-center shadow shadow-lg p-md-4 p-3 my-md-0 my-3 rounded-lg stats">
         <div className="d-flex align-items-center justify-content-center">
           <img src={icon} alt="clients" className={`${animation}`} />
           <div className="d-flex flex-column py-3">

@@ -116,7 +116,7 @@ const OurServices = () => {
     );
   });
   return (
-    <Container fluid className="service-slider py-md-0 py-3">
+    <Container fluid className="service-slider">
       <Container>
         <SectionTitle title="Core Services" />
       </Container>

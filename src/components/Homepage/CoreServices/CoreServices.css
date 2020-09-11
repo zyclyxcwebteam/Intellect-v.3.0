@@ -28,7 +28,7 @@
 .service-text-box {
   background-color: #f4f4f4;
   position: relative;
-
+  z-index: 999;
   padding: 4.2rem 1rem;
   margin: 0 6rem;
   border-radius: 1rem;

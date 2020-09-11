@@ -63,13 +63,10 @@
   min-height: 178px;
 }
 @media (max-width: 576px) {
-  .poc-title {
+  .poc-title small {
     font-size: 1.3rem;
   }
-  .poc-title-bg {
+  .poc-title {
     font-size: 1.7rem;
-  }
-  .poc-letter {
-    display: none;
   }
 }
