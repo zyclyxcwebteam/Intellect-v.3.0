@@ -125,7 +125,8 @@
 
 /* 2. Artificial Intelligence */
 .ai {
-  background-image: url("/images/service-pages/2.png");
+  /* background-image: url("/images/service-pages/2.png"); */
+  background-image: url("/images/service-pages/ai-new.svg");
 }
 .ai-sol {
   background-image: url("/images/service-pages/16-sol.png");
@@ -160,7 +161,8 @@
 
 /* 13. software development */
 .software {
-  background-image: url("/images/service-pages/1.png");
+  /* background-image: url("/images/service-pages/1.png"); */
+  background-image: url("/images/service-pages/software-new.svg");
 }
 .software-sol {
   background-image: url("/images/service-pages/14-sol.png");
@@ -176,7 +178,8 @@
 
 /* 17. Outsourcing */
 .outsource {
-  background-image: url("/images/service-pages/24.png");
+  /* background-image: url("/images/service-pages/24.png"); */
+  background-image: url("/images/service-pages/outsource-new.svg");
 }
 .outsource-sol {
   background-image: url("/images/service-pages/12-sol.jpg");
@@ -202,7 +205,8 @@
 
 /* Cloud Services */
 .cloud-service {
-  background-image: url("/images/service-pages/cloud-service.png");
+  /* background-image: url("/images/service-pages/cloud-service.png"); */
+  background-image: url("/images/service-pages/cloud-new.svg");
 }
 .cloud-service-sol {
   background-image: url("/images/service-pages/cloud-service-sol.png");
