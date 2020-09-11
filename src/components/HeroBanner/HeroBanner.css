@@ -162,7 +162,7 @@
 /* 13. software development */
 .software {
   /* background-image: url("/images/service-pages/1.png"); */
-  background-image: url("/images/service-pages/software-new.svg");
+  background-image: url("/images/service-pages/software-new2.svg");
 }
 .software-sol {
   background-image: url("/images/service-pages/14-sol.png");
@@ -179,7 +179,7 @@
 /* 17. Outsourcing */
 .outsource {
   /* background-image: url("/images/service-pages/24.png"); */
-  background-image: url("/images/service-pages/outsource-new.svg");
+  background-image: url("/images/service-pages/outsource-new2.svg");
 }
 .outsource-sol {
   background-image: url("/images/service-pages/12-sol.jpg");
@@ -206,7 +206,7 @@
 /* Cloud Services */
 .cloud-service {
   /* background-image: url("/images/service-pages/cloud-service.png"); */
-  background-image: url("/images/service-pages/cloud-new.svg");
+  background-image: url("/images/service-pages/cloud-new2.svg");
 }
 .cloud-service-sol {
   background-image: url("/images/service-pages/cloud-service-sol.png");
@@ -247,7 +247,8 @@
 
 /* Cyber Security */
 .cyber-security {
-  background-image: url("/images/service-pages/cyber-security.png");
+  /* background-image: url("/images/service-pages/cyber-security.png"); */
+  background-image: url("/images/service-pages/cyber-new.svg");
 }
 .cyber-security-sol {
   background-image: url("/images/service-pages/cyber-security-sol.jpg");
