@@ -1,9 +1,11 @@
 .about-banner {
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80vh;
+  /* height: 80vh; */
   background-position: center;
-  background-image: url("/images/about2.svg");
+  /* background-image: url("/images/about2.svg"); */
+  background-image: url("/images/aboutus/aboutus2.svg");
+  width: 140%;
 }
 .overview-wrapper {
   background-color: #f9f9f9;
