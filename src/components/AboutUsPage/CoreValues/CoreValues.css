@@ -1,0 +1,89 @@
+.core-values {
+  background-color: #19132a;
+}
+.core-section-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.card-img-top {
+  background: linear-gradient(
+      125deg,
+      hsl(255deg 14% 35%) 0%,
+      hsl(256 38% 20% / 1) 40%,
+      #480d24 70%,
+      #f0ffc5 100%
+    ),
+    linear-gradient(55deg, hsl(256 38% 12% / 1) 0%, hsl(256 38% 4% / 1) 100%),
+    linear-gradient(300deg, #356da1 0%, hsl(256 38% 12% / 1) 100%),
+    radial-gradient(
+      135% 215% at 115% 40%,
+      #393939 0%,
+      #393939 40%,
+      #849561 calc(40% + 1px),
+      #849561 60%,
+      #eed690 calc(60% + 1px),
+      #eed690 80%,
+      #ecefd8 calc(80% + 1px),
+      #ecefd8 100%
+    ),
+    linear-gradient(
+      125deg,
+      #282d4f 0%,
+      #480d24 40%,
+      #23103a calc(40% + 1px),
+      #23103a 70%,
+      #19132a calc(70% + 1px),
+      #480d24 88%,
+      #19132a calc(88% + 1px),
+      #480d24 100%
+    );
+  background-blend-mode: overlay, screen, overlay, overlay, normal;
+}
+.c-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #93ddfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-card {
+  margin: 3rem 0.4rem;
+}
+.c-title {
+  color: #1d6da2;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.c-text {
+  color: #ffffff;
+}
+.core-title {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3rem;
+}
+.core-text {
+  color: #ffffff;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.slick-dots li button:before {
+  color: #ffffff;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.slick-dots li.slick-active button:before {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.card-text {
+  font-size: 1.2rem;
+}
