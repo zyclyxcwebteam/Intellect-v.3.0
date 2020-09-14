@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import Layout from "../components/Layout/Layout";
-import Comejoin from "../../static/images/comejoin.svg";
+// import Comejoin from "../../static/images/comejoin.svg";
+import Comejoin from "../../static/images/join_us.svg";
 import "../css/careers.css";
 import JobOpenings from "../components/CareersPage/JobOpenings";
 
@@ -22,19 +23,19 @@ const careers = () => {
         <Container>
           <h3 className="c-overview-text mb-0">
             If you have a desire to excel, we have the potential to help you
-            prosper. In INTELLECT Technologies, we empower employees to explore
-            their talents and abilities in tandem with their careers.
+            prosper
           </h3>
+          <p className="py-3 text-center">
+            In INTELLECT Technologies, we empower employees to explore their
+            talents and abilities in tandem with their careers
+          </p>
         </Container>
       </Container>
 
-      <Container fluid className="join-us-wrapper py-md-5 py-3">
+      <Container fluid className="join-us-wrapper pb-3">
         <Container>
           <Row>
             <Col md="4" className="c-title-border">
-              <div className="py-md-5 py-3">
-                <h2 className="c-section-title">Come Join Us</h2>
-              </div>
               <div className="d-flex justify-content-center align-items-center">
                 <img src={Comejoin} alt="new age" className="mt-4 imgstyle" />
               </div>
@@ -42,8 +43,11 @@ const careers = () => {
             <Col
               md={8}
               sm={12}
-              className="d-flex justify-content-center align-items-center"
+              className="d-flex justify-content-center align-items-center flex-column"
             >
+              <div className="py-2">
+                <h2 className="join-title">Join INTELLECT Technologies</h2>
+              </div>
               <ul className="join-us-points">
                 <li className="d-flex align-items-center">
                   <span className="arrow-wrapper d-flex justify-content-center align-items-center">

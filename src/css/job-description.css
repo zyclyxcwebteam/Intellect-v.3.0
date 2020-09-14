@@ -22,9 +22,9 @@
   height: 40px;
   width: 40px;
   min-width: 40px;
-  background-color: #481328;
+  background-color: rgba(72, 19, 40, 0.15);
   border-radius: 50%;
-  color: #fff;
+  color: #481328;
   display: flex;
   justify-content: center;
   align-items: center;

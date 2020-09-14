@@ -67,7 +67,7 @@ const jobDescription = props => {
   useEffect(() => {
     const { location } = props;
     const { id } = location.state;
-    fetch(`https://agile-plateau-09650.herokuapp.com/jobopenings/${id}`)
+    fetch(`https://admin-zyclyx.herokuapp.com/job-openings/${id}`)
       .then(response => {
         return response.json();
       })
@@ -85,7 +85,7 @@ const jobDescription = props => {
       email: data.email,
       phone: formatPhoneNumberIntl(value),
       subject: data.message,
-      position: jobDetails.title,
+      position: jobDetails.Title,
       website: "intellect",
       country_code: parsePhoneNumber(value)
         ? parsePhoneNumber(value).country
@@ -131,10 +131,10 @@ const jobDescription = props => {
       showBanner
       active="career"
       title="Job Opportunities with ZYCLYX"
-      description={(jobDetails && jobDetails.title) || "job openings in Zyclyx"}
+      description={(jobDetails && jobDetails.Title) || "job openings in Zyclyx"}
     >
       <HeroBanner
-        title={jobDetails && jobDetails.title}
+        title={jobDetails && jobDetails.Title}
         imageClass="job-description"
       />
       <Container fluid>
@@ -213,10 +213,13 @@ const jobDescription = props => {
             {display.showReq ? (
               <>
                 <div className="py-4">
-                  <h3 className="py-3">Requirements</h3>
                   {jobDetails &&
-                    jobDetails.requirements.map(data => {
-                      return <Requirement item={data} key={data.slice(0.5)} />;
+                    jobDetails.Requirements.split("\n").map(data => {
+                      return (
+                        data !== "" && (
+                          <Requirement item={data} key={data.slice(0.5)} />
+                        )
+                      );
                     })}
                 </div>
               </>
@@ -227,8 +230,12 @@ const jobDescription = props => {
                 <div className="py-4">
                   <h3 className="py-3">Responsibilities</h3>
                   {jobDetails &&
-                    jobDetails.responsibilities.map(data => {
-                      return <Requirement item={data} key={data.slice(0.5)} />;
+                    jobDetails.Responsibilities.split("\n").map(data => {
+                      return (
+                        data !== "" && (
+                          <Requirement item={data} key={data.slice(0.5)} />
+                        )
+                      );
                     })}
                 </div>
               </>
