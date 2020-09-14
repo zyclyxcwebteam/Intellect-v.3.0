@@ -25,10 +25,10 @@
   transform: translateX(-50%);
   height: 425px;
 }
-.mission-links {
+/* .mission-links {
   position: absolute;
   bottom: 60px;
-}
+} */
 .mission-inner img {
   height: 400px;
   padding: 10px;

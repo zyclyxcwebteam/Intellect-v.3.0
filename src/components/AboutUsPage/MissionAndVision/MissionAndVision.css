@@ -1,0 +1,22 @@
+.mission-wrapper {
+  background-color: #19132a;
+  position: relative;
+  min-height: 400px;
+}
+.mission-img-container {
+  margin-top: 70px;
+  min-height: 300px;
+}
+.mission-text-container {
+  background-color: #481328;
+  border-radius: 0.6rem;
+  color: #fff;
+  box-shadow: 0 0 4px 1px #7e3e57;
+}
+.mission-space {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}

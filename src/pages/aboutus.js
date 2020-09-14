@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import RotatingText from "react-rotating-text";
 import Layout from "../components/Layout/Layout";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
-import MissionImage from "../../static/images/mission.png";
-import VisionImage from "../../static/images/vision.png";
+import MissionAndVision from "../components/AboutUsPage/MissionAndVision/MissionAndVision";
+// import MissionImage from "../../static/images/mission.png";
+// import VisionImage from "../../static/images/vision.png";
 import IconDeliver from "../../static/images/c-deliver.svg";
 import IconOwnership from "../../static/images/c-val-2.svg";
 import IconCommit from "../../static/images/c-val-3.svg";
@@ -44,7 +45,7 @@ const CoreValueCard = ({ title, text, icon, left }) => {
 };
 
 const aboutus = () => {
-  const [showMission, setShowMission] = useState(true);
+  // const [showMission, setShowMission] = useState(true);
   return (
     <Layout
       showBanner
@@ -109,8 +110,10 @@ const aboutus = () => {
           </p>
         </Container>
       </Container>
+      <MissionAndVision />
+
       {/* Mission and Vission */}
-      <Container fluid className="mission-outer py-md-4 py-2 px-md-3 px-0">
+      {/* <Container fluid className="mission-outer py-md-4 py-2 px-md-3 px-0">
         <Container className="py-md-5 py-3 mission-inner">
           <Row>
             <Col
@@ -166,7 +169,7 @@ const aboutus = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </Container> */}
 
       {/* Core Values */}
       <Container fluid className="py-3 core-values">
