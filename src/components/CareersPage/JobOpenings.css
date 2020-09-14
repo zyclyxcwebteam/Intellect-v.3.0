@@ -7,14 +7,16 @@
   color: #f4f4f4;
 }
 .job-title {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   color: #481328;
 }
 .job-location,
 .job-info {
   color: #717171;
 }
-
+.job-info .icon {
+  color: #a0a0a0;
+}
 .job-card {
   box-shadow: 0 0 4px 1px hsl(256, 38%, 92%);
   border-radius: 0.4rem;

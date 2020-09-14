@@ -15,6 +15,8 @@ import {
   faUsers,
   faRocket,
   faCog,
+  faBriefcase,
+  faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 import SEO from "../SEO/seo";
 import Navbar from "../NavBar/Navbar";
@@ -39,7 +41,9 @@ library.add(
   faPaperPlane,
   faUsers,
   faRocket,
-  faCog
+  faCog,
+  faBriefcase,
+  faUserTie
 );
 
 const layout = props => {

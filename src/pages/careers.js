@@ -1,79 +1,14 @@
-import React, { useState, useEffect } from "react";
-// import { Link } from "gatsby";
-import fetch from "isomorphic-fetch";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRight,
-  // faBriefcase,
-  // faUserAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import Layout from "../components/Layout/Layout";
 import Comejoin from "../../static/images/comejoin.svg";
 import "../css/careers.css";
-import JobOpeningCard from "../components/CareersPage/JobOpeningCard";
-
-// const JobCard = props => {
-//   const { active, title, location, id } = props;
-//   return (
-//     <Col
-//       md="6"
-//       sm="12"
-//       className={`py-4 job-card ${active && "active"}`}
-//       key={id}
-//     >
-//       <h2 className="text-center job-title">{title}</h2>
-//       <h5 className="text-center job-location">{location}</h5>
-//       <div className="job-info d-flex justify-content-center py-3">
-//         <div className="d-flex align-items-center">
-//           <div className="job-icon mx-3">
-//             <FontAwesomeIcon icon={faBriefcase} />
-//           </div>
-//           <div>
-//             <p className="m-0 info-title">Experience</p>
-//             <p className="m-0 info-text">2-3 Years</p>
-//           </div>
-//         </div>
-
-//         <div className="d-flex align-items-center">
-//           <div className="job-icon mx-3">
-//             <FontAwesomeIcon icon={faUserAlt} />
-//           </div>
-//           <div>
-//             <p className="m-0 info-title">Job Type</p>
-//             <p className="m-0 info-text">Full Time</p>
-//           </div>
-//         </div>
-//       </div>
-//       <p className="d-flex justify-content-center py-3 m-0">
-//         <Link
-//           to="/job-details/"
-//           state={{ id }}
-//           className="button d-flex align-items-center"
-//         >
-//           Apply Now
-//           <FontAwesomeIcon icon="arrow-right" className="btn-icon" />
-//         </Link>
-//       </p>
-//     </Col>
-//   );
-// };
+import JobOpenings from "../components/CareersPage/JobOpenings";
 
 const careers = () => {
-  const [openings, setOpenings] = useState([]);
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    fetch("https://agile-plateau-09650.herokuapp.com/jobopenings")
-      .then(response => {
-        return response.json();
-      })
-      .then(jsonData => {
-        setLoading(false);
-        setOpenings(jsonData);
-      });
-  }, [openings]);
-
   return (
     <Layout
       showBanner
@@ -194,40 +129,12 @@ const careers = () => {
       </Container>
 
       <Container fluid>
-        {/* <JobOpeningCard
-          title="Web Developer"
-          location="Hyderabad, India"
-          experience="3-4 years Experience"
-        /> */}
         <Container>
           <div className="py-5">
             <h2 className="c-section-title">Open Positions</h2>
           </div>
         </Container>
-        <Container>
-          {loading ? (
-            <div className="d-flex justify-content-center">
-              <div className="spinner-border text-success" role="status">
-                <span className="sr-only">Loading...</span>
-              </div>
-            </div>
-          ) : (
-            <Row className="">
-              {openings.length !== 0 &&
-                openings.map(opening => {
-                  return (
-                    <JobOpeningCard
-                      title={opening.title}
-                      location={opening.location}
-                      experience="3 - 4 years"
-                      id={opening.id}
-                      key={opening.id}
-                    />
-                  );
-                })}
-            </Row>
-          )}
-        </Container>
+        <JobOpenings />
       </Container>
       {/* Spacer */}
       <Container fluid className="py-4" />
