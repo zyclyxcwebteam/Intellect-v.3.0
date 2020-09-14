@@ -118,6 +118,7 @@
     hsl(243, 90%, 35%) 100%
   );
   transform: scale(1.02);
+  color: #ffffff;
 }
 /* stop animatin on hover */
 .button:hover span {
