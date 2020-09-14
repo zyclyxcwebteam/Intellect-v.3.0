@@ -35,6 +35,9 @@ const PARTNERS = [
 const settings = {
   dots: true,
   infinite: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: false,
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
