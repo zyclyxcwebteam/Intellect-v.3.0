@@ -16,7 +16,7 @@ const Footer = () => {
             <FontAwesomeIcon icon="at" />
             <a href="mailto:info@intellect-qa.com">info@intellect-qa.com</a>
           </li>
-          <li>
+          <li className="visit-us-link">
             <FontAwesomeIcon icon="map-marker-alt" />
             <a href="https://www.google.com/maps/place/Servcorp+Commercial+Bank+Plaza+-+Coworking,+Offices,+Virtual+Offices+%26+Meeting+Rooms/@25.313031,51.518516,16z/data=!4m5!3m4!1s0x0:0x614e24d824b8c339!8m2!3d25.313419!4d51.518291?hl=en">
               Visit us

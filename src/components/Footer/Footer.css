@@ -53,7 +53,12 @@
   display: flex;
   align-items: center;
 }
-
+.visit-us-link {
+  position: relative;
+}
+.visit-us-link svg {
+  position: absolute;
+}
 .footer .contact-links svg {
   margin-left: 1rem;
 }
