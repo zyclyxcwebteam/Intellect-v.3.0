@@ -43,7 +43,7 @@ const JobOpenings = () => {
   const [openings, setOpenings] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("https://admin-zyclyx.herokuapp.com/job-openings")
+    fetch("https://admin-zyclyx.herokuapp.com/job-openings?Status=open")
       .then(response => {
         return response.json();
       })
