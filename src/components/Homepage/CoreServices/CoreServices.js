@@ -87,6 +87,7 @@ const OurServices = () => {
         key={item.src}
         className="service-item"
       >
+        <div className="spacer-div" />
         <Row className="h-100">
           <Col
             md="6"
@@ -120,8 +121,8 @@ const OurServices = () => {
       <Container>
         <SectionTitle title="Core Services" />
       </Container>
-      <Container fluid className="px-md-5 px-1 py-md-1 py-3">
-        <div className="spacer-div" />
+      <Container fluid className="px-md-5 px-1 py-md-1">
+        {/* <div className="spacer-div" /> */}
         <Carousel
           activeIndex={activeIndex}
           next={next}

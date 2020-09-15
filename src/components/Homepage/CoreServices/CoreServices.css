@@ -1,6 +1,6 @@
 .service-slider {
   background-color: #e3e8eb;
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
 }
 .slides-wrapper {
   /* background-color: hsl(256, 38%, 90%); */
@@ -16,7 +16,7 @@
   z-index: 1;
 }
 .newage {
-  max-width: 600px;
+  max-width: 550px;
 }
 .service-title {
   color: #8d1b3d;
@@ -29,8 +29,8 @@
   background-color: #f4f4f4;
   position: relative;
   z-index: 999;
-  padding: 4.2rem 1rem;
-  margin: 0 6rem;
+  padding: 3rem 0.5rem;
+  margin: 0 4rem;
   border-radius: 1rem;
   box-shadow: -2px 3px 10px 1px hsl(256, 38%, 72%);
 }
