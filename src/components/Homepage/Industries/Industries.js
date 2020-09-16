@@ -55,6 +55,7 @@ const Industries = () => {
     text: IndustryData[0].text,
     img: IndustryData[0].img,
   });
+  // const [activeIndex, setActiveIndex] = useState(0);
 
   const updateIndustryText = index => {
     setIndContent({
@@ -65,15 +66,26 @@ const Industries = () => {
     });
   };
 
-  //   useEffect(() => {
-  //     setInterval(() => {
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     if (activeIndex < 6) {
   //       setIndContent({
-  //         index,
-  //         title: IndustryData[index].title,
-  //         text: IndustryData[index].text,
+  //         index: activeIndex + 1,
+  //         title: IndustryData[activeIndex + 1].title,
+  //         text: IndustryData[activeIndex + 1].text,
   //       });
-  //     }, 3000);
-  //   }, []);
+  //       setActiveIndex(activeIndex + 1);
+  //     }
+  //     if (activeIndex > 5) {
+  //       setActiveIndex(0);
+  //       setIndContent({
+  //         index: activeIndex + 1,
+  //         title: IndustryData[activeIndex + 1].title,
+  //         text: IndustryData[activeIndex + 1].text,
+  //       });
+  //     }
+  //   }, 30000);
+  // });
   return (
     <Container fluid className="ind-wrapper">
       <Row className="h-100">

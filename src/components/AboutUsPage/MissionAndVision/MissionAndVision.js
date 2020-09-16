@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Mission from "../../../../static/images/mission2.svg";
 import Vision from "../../../../static/images/focus2.svg";
+// import Mission from "../../../../static/images/aboutus/mission.svg";
+// import Vision from "../../../../static/images/aboutus/vision.svg";
 import "./MissionAndVision.css";
 
 const MissionAndVision = () => {
