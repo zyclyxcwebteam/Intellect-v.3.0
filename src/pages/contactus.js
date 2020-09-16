@@ -42,7 +42,7 @@ const Contact = () => {
       Phone: formatPhoneNumberIntl(value),
       Date: new Date(),
       Message: data.message,
-      Website: "intellect",
+      Website: "INTELLECT",
     };
 
     fetch("https://admin-zyclyx.herokuapp.com/business-enquiries", {
