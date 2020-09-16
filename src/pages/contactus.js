@@ -3,11 +3,8 @@ import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import fetch from "isomorphic-fetch";
 import { Container, Row, Col } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PhoneInput, {
-  formatPhoneNumberIntl,
-  parsePhoneNumber,
-} from "react-phone-number-input";
+import PhoneInput, { formatPhoneNumberIntl } from "react-phone-number-input";
+import ContactDetails from "../components/ContactUsPage/ContactDetails/ContactDetails";
 
 import Layout from "../components/Layout/Layout";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
@@ -17,7 +14,6 @@ import "../css/form-floating-label.css";
 import "../components/Button/Button.css";
 
 const Contact = () => {
-  const [showContactInfo, setShowContactInfo] = useState(true);
   const [success, setSuccess] = useState(false);
   const [submintForm, setSubmitForm] = useState(false);
   const [country, setCountry] = useState("");
@@ -41,18 +37,16 @@ const Contact = () => {
   const onSubmit = (data, event) => {
     setSubmitForm(true);
     const payload = {
-      fullname: data.fullname,
-      email: data.email,
-      phone: formatPhoneNumberIntl(value),
-      date: new Date(),
-      message: data.message,
-      countryCode: parsePhoneNumber(value)
-        ? parsePhoneNumber(value).country
-        : "",
-      website: "intellect",
+      Full_Name: data.fullname,
+      Email: data.email,
+      Phone: formatPhoneNumberIntl(value),
+      Date: new Date(),
+      Message: data.message,
+      Website: "intellect",
     };
 
-    fetch("https://zyclyx-backend-api.herokuapp.com/business-enquiries", {
+    fetch("https://admin-zyclyx.herokuapp.com/business-enquiries", {
+      // fetch("http://localhost:1337/business-enquiries", {
       method: "post",
       headers: {
         "Content-type": "application/json",
@@ -84,10 +78,6 @@ const Contact = () => {
       });
   };
 
-  function resetForm() {
-    setShowContactInfo(true);
-    setSuccess(false);
-  }
   return (
     <Layout
       showBanner={false}
@@ -100,6 +90,8 @@ const Contact = () => {
         imageClass="contact"
       />
 
+      <ContactDetails />
+
       <Container fluid>
         <Row>
           <Col
@@ -107,211 +99,117 @@ const Contact = () => {
             sm="12"
             className="c-wrapper-left address-wrapper d-flex align-items-center"
           >
-            {showContactInfo ? (
-              <Container className="c-info-wrapper py-4">
-                <Row className="d-flex justify-content-center align-items-center py-3">
-                  <Col md="7" sm="12">
-                    <Row>
-                      <Col sm="3">
-                        <p className="icons mt-4">
-                          <FontAwesomeIcon
-                            icon="map-marked-alt"
-                            className="contact-icon"
-                          />
-                        </p>
-                      </Col>
-                      <Col sm="9">
-                        <h4 className="contact-title">OFFICE</h4>
-                        <p className="contact-text">
-                          Commercial Bank Plaza, Level 14, West Bay, P.O 27111,
-                          Doha, Qatar
-                        </p>
-                      </Col>
-                    </Row>
-                  </Col>
-                </Row>
-                <Row className="d-flex justify-content-center align-items-center py-3">
-                  <Col sm="12" md="7">
-                    <Row>
-                      <Col sm="3">
-                        <p className="icons">
-                          <FontAwesomeIcon
-                            icon="phone"
-                            className="contact-icon"
-                          />
-                        </p>
-                      </Col>
-                      <Col sm="9">
-                        <h4 className="contact-title">CONTACT</h4>
-                        <p className="contact-text">(+974) 44528242</p>
-                      </Col>
-                    </Row>
-                  </Col>
-                </Row>
-                <Row className="d-flex justify-content-center align-items-center py-3">
-                  <Col sm="12" md="7">
-                    <Row>
-                      <Col sm="3">
-                        <p className="icons">
-                          <FontAwesomeIcon
-                            icon="envelope"
-                            className="contact-icon"
-                          />
-                        </p>
-                      </Col>
-                      <Col sm="9">
-                        <h4 className="contact-title">EMAIL</h4>
-                        <p className="contact-text">info@intellect-qa.com</p>
-                      </Col>
-                    </Row>
-                  </Col>
-                </Row>
-                <div className="d-flex justify-content-center py-4">
+            <Container className="c-form-wrapper">
+              <div className="py-4">
+                <h4 className="text-center c-info-title mt-4 mb-0 px-md-4">
+                  We are happy to assist you with your queries
+                </h4>
+              </div>
+
+              {success && (
+                <div className="success-msg">
+                  <h4 className="text-center">Thank you for contacting us!</h4>
+                  <p className="text-center">
+                    We will get in touch with you soon
+                  </p>
+                </div>
+              )}
+              <form
+                onSubmit={handleSubmit(onSubmit)}
+                className="floating-label-form c-form"
+              >
+                <div className="row py-md-2 d-flex justify-content-center">
+                  <div className="col-lg-7 col-12">
+                    <div className="form-group floating-label py-1">
+                      <input
+                        type="text"
+                        className="form-control"
+                        name="fullname"
+                        placeholder="Full Name"
+                        ref={register({ required: true })}
+                      />
+                      {errors.fullname && (
+                        <span className="err-msg">*Fullname is required</span>
+                      )}
+                      <label htmlFor="username">
+                        Full Name
+                        <span className="required">*</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div className="col-lg-7 col-12">
+                    <div className="form-group floating-label py-1">
+                      <input
+                        type="email"
+                        className="form-control"
+                        name="email"
+                        autoComplete="off"
+                        placeholder="Email"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                        ref={register({ required: true })}
+                      />
+                      {errors.email && (
+                        <span className="err-msg">*Email is required</span>
+                      )}
+                      <label htmlFor="email">
+                        Email
+                        <span className="required">*</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div className="col-lg-7 col-12">
+                    <PhoneInput
+                      placeholder="Phone"
+                      className="form-group floating-label py-1"
+                      value={value}
+                      onChange={setValue}
+                      defaultCountry={country}
+                    />
+                  </div>
+                  <div className="col-lg-7 col-12">
+                    <div className="form-group floating-label py-1">
+                      <textarea
+                        className="form-control pt-3 pb-4"
+                        name="message"
+                        placeholder="Message"
+                        ref={register({ required: true, max: 300 })}
+                      />
+                      {errors.message && (
+                        <span className="err-msg">*Message is required</span>
+                      )}
+                      <label htmlFor="message">
+                        Message
+                        <span className="required">*</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div className="col-12" />
                   <button
-                    type="button"
+                    type="submit"
                     className="button d-flex align-items-center"
-                    id="contactBtn"
-                    onClick={() => {
-                      return setShowContactInfo(!showContactInfo);
-                    }}
+                    disabled={submintForm}
                   >
-                    Message Us
+                    {submintForm ? (
+                      <>
+                        Sending..
+                        <div
+                          className="spinner-border spinner-border-sm ml-3 text-warning"
+                          role="status"
+                        >
+                          <span className="sr-only">Loading...</span>
+                        </div>
+                      </>
+                    ) : (
+                      "Message us"
+                    )}
                     <span />
                     <span />
                     <span />
                     <span />
                   </button>
                 </div>
-              </Container>
-            ) : (
-              <Container className="c-form-wrapper">
-                <div className="py-4">
-                  <h4 className="text-center c-info-title mt-4 mb-0">
-                    We are happy to assist
-                    <br />
-                    you with your queries
-                  </h4>
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn form-close"
-                  id="contactBtn"
-                  onClick={() => {
-                    return resetForm();
-                  }}
-                >
-                  <span id="btnText">
-                    <FontAwesomeIcon icon="times" />
-                  </span>
-                </button>
-                {success && (
-                  <div className="success-msg">
-                    <h4 className="text-center">
-                      Thank you for contacting us!
-                    </h4>
-                    <p className="text-center">
-                      We will get in touch with you soon
-                    </p>
-                  </div>
-                )}
-                <form
-                  onSubmit={handleSubmit(onSubmit)}
-                  className="floating-label-form c-form"
-                >
-                  <div className="row py-md-2 d-flex justify-content-center">
-                    <div className="col-lg-7 col-12">
-                      <div className="form-group floating-label py-1">
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="fullname"
-                          placeholder="Full Name"
-                          ref={register({ required: true })}
-                        />
-                        {errors.fullname && (
-                          <span className="err-msg">*Fullname is required</span>
-                        )}
-                        <label htmlFor="username">
-                          Full Name
-                          <span className="required">*</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-7 col-12">
-                      <div className="form-group floating-label py-1">
-                        <input
-                          type="email"
-                          className="form-control"
-                          name="email"
-                          autoComplete="off"
-                          placeholder="Email"
-                          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
-                          ref={register({ required: true })}
-                        />
-                        {errors.email && (
-                          <span className="err-msg">*Email is required</span>
-                        )}
-                        <label htmlFor="email">
-                          Email
-                          <span className="required">*</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-7 col-12">
-                      <PhoneInput
-                        placeholder="Phone"
-                        className="form-group floating-label py-1"
-                        value={value}
-                        onChange={setValue}
-                        defaultCountry={country}
-                      />
-                    </div>
-                    <div className="col-lg-7 col-12">
-                      <div className="form-group floating-label py-1">
-                        <textarea
-                          className="form-control pt-3 pb-4"
-                          name="message"
-                          placeholder="Message"
-                          ref={register({ required: true, max: 300 })}
-                        />
-                        {errors.message && (
-                          <span className="err-msg">*Message is required</span>
-                        )}
-                        <label htmlFor="message">
-                          Message
-                          <span className="required">*</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-12" />
-                    <button
-                      type="submit"
-                      className="button d-flex align-items-center"
-                      disabled={submintForm}
-                    >
-                      {submintForm ? (
-                        <>
-                          Sending..
-                          <div
-                            className="spinner-border spinner-border-sm ml-3 text-warning"
-                            role="status"
-                          >
-                            <span className="sr-only">Loading...</span>
-                          </div>
-                        </>
-                      ) : (
-                        "Message us"
-                      )}
-                      <span />
-                      <span />
-                      <span />
-                      <span />
-                    </button>
-                  </div>
-                </form>
-              </Container>
-            )}
+              </form>
+            </Container>
           </Col>
 
           <Col
