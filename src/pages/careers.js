@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import Layout from "../components/Layout/Layout";
-// import Comejoin from "../../static/images/comejoin.svg";
 import Comejoin from "../../static/images/join_us.svg";
 import "../css/careers.css";
 import JobOpenings from "../components/CareersPage/JobOpenings";
@@ -37,7 +36,11 @@ const careers = () => {
           <Row>
             <Col md="4" className="c-title-border">
               <div className="d-flex justify-content-center align-items-center">
-                <img src={Comejoin} alt="new age" className="mt-4 imgstyle" />
+                <img
+                  src={Comejoin}
+                  alt="new age"
+                  className="mt-md-4 imgstyle"
+                />
               </div>
             </Col>
             <Col

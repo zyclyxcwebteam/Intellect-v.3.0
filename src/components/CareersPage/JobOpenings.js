@@ -11,14 +11,14 @@ const JobOpeningCard = ({ id, title, location, experience }) => {
       <Row className="px-3">
         <Col sm="12" md="6">
           <h2 className="job-title">{title}</h2>
-          <p className="job-location job-info mb-0">{location}</p>
+          <p className="job-location job-info mb-md-0">{location}</p>
         </Col>
         <Col sm="12" md="3">
           <p className="job-info">
             <FontAwesomeIcon icon="briefcase" className="mr-2 icon" />
             {experience}
           </p>
-          <p className="job-info mb-0">
+          <p className="job-info mb-md-0">
             <FontAwesomeIcon icon="user-tie" className="mr-2 icon" />
             Permanent
           </p>
