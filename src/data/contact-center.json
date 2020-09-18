@@ -6,7 +6,8 @@
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "contact-center",
   "solImage": "contact-center-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 30,
   "services": [
     {
       "title": "Automatic Call Distributor (ACD)",

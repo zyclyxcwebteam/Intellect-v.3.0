@@ -6,7 +6,8 @@
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "storage-service",
   "solImage": "storage-service-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 20,
   "services": [
     {
       "title": "Performance Optimization",

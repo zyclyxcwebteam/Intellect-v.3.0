@@ -6,7 +6,8 @@
   "solTitle": "Modernize your infrastructure for optimal business results",
   "bannerImage": "infra",
   "solImage": "infra-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 20,
   "services": [
     {
       "title": "Application System",

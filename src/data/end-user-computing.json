@@ -6,7 +6,8 @@
   "solTitle": "Focusing on end-user satisfaction for superior productivity",
   "bannerImage": "enduser",
   "solImage": "enduser-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 20,
   "services": [
     {
       "title": "Custom Solutions",

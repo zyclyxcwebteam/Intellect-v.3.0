@@ -9,6 +9,10 @@
   "scroll": false,
   "services": [
     {
+      "title": "Data Center AMC",
+      "content": " The aim is to provide you with Data Center Infrastructure Management services that would increase efficiencies and reduce costs. We will handle the annual maintenance of your Data Center as per your needs and compliance requirements. "
+    },
+    {
       "title": "The primary point of contact",
       "content": "Our main aim is to ensure the help desk provides your organization assistance in monitoring / owning incidents, addressing user requests. Additionally, the service desk often also has an active role in capturing change requests, maintaining 3rd party support contracts, managing software licenses, and assisting with problem management."
     },

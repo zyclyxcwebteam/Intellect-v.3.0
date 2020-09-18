@@ -6,7 +6,8 @@
   "solTitle": "Achieve higher productivity with digitized documents",
   "bannerImage": "ocr",
   "solImage": "ocr-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 20,
   "services": [
     {
       "title": "Auto Document Classification",
