@@ -106,8 +106,8 @@
   }
 } /* ==== Inner page banners ==== */
 .contact {
-  /* background-image: url("/images/contact.png"); */
-  background-image: url("/images/contactus1.svg");
+  background-image: url("/images/contact.png");
+  /* background-image: url("/images/contactus3.svg"); */
 }
 
 .career {
@@ -290,7 +290,7 @@
   background-image: url("/images/service-pages/staff-sol.svg");
 }
 .enterprise {
-  background-image: url("/images/service-pages/enterprise.svg");
+  background-image: url("/images/service-pages/enterprise3.svg");
 }
 .enterprise-sol {
   background-image: url("/images/service-pages/enterprise-sol.svg");
