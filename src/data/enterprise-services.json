@@ -6,7 +6,8 @@
   "solTitle": "Converting raw data into actionable insights",
   "bannerImage": "enterprise",
   "solImage": "enterprise-sol",
-  "scroll": false,
+  "scroll": true,
+  "duration": 40,
 
   "services": [
     {
@@ -20,6 +21,10 @@
     {
       "title": "IV & V Services",
       "content": "Independent Verification and Validation  services utilizing latest test methodologies. Providing catalogue based testing services."
+    },
+    {
+      "title": "Hospitality Pre-opening consultancy",
+      "content": "Assisting you with the development projects right through the Feasibility study to Pre-Opening. Our team creates tailored solutions for every need, whether you're just starting out, renovating, re-branding or simply want to improve your daily performance.  We work towards improving your operational efficiencies and productivity for the success of your investment."
     },
     {
       "title": "Managed Services",
