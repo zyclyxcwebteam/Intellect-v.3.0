@@ -49,7 +49,7 @@ const items = [
   {
     img: NetworkBG,
     serviceText:
-      "When you have to work in a world of devious cybercriminals, it’s important to ensure that your network and data are safe. We at ZYCLYX use a combination of effective hardware and software solutions to protect you from multiple layers of intrusions and breaches.",
+      "When you have to work in a world of devious cybercriminals, it’s important to ensure that your network and data are safe. We at INTELLECT use a combination of effective hardware and software solutions to protect you from multiple layers of intrusions and breaches.",
     captionOne: "Effective Data protection with",
     captionTwo: "Network Security",
     imgLeft: false,
