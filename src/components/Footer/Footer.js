@@ -61,23 +61,23 @@ const Footer = () => {
           </Col>
           <Col sm="12" md="4">
             <p className="m-0 text-center">
-              &copy;2020 INTELLECT-QA. All rights reserved
+              &copy;2019 INTELLECT-QA. All rights reserved
             </p>
           </Col>
           <Col sm="12" md="4" className="privacy px-0">
             <ul className="py-1 ml-auto">
               <li>
-                <a href="/" title="Privacy">
-                  Privacy
+                <a href="/contactus" title="contactus">
+                  Contact us
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/" title="Terms">
                   Terms
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="/" title="sitemap">
+                <a href="/sitemap" title="sitemap">
                   Sitemap
                 </a>
               </li>
