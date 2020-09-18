@@ -61,10 +61,10 @@ const aboutus = () => {
           <p>
             The team at INTELLECT comprises highly skilled professionals with
             expertise in different domains like Banking and Finance, Healthcare,
-            Infrastructure, Outsourcing services and more, with them on board
-            you can be assured of quality output. We provide complete project
-            management support right from conceptualization to implementation
-            and assessment.
+            Infra Service,IT Consulting,Outsourcing/Staffing services and more,
+            with them on board you can be assured of quality output. We provide
+            complete project management support right from conceptualization to
+            implementation and assessment.
           </p>
           <p>
             In partnership with globally recognized IT solution providers, we
