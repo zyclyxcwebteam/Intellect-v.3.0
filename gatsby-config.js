@@ -6,7 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    siteUrl: `https://www.intellect-qa.com/`,
+  },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
