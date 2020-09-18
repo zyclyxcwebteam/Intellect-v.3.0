@@ -164,6 +164,7 @@ const Contact = () => {
                       value={value}
                       onChange={setValue}
                       defaultCountry={country}
+                      required
                     />
                   </div>
                   <div className="col-lg-7 col-12">

@@ -351,6 +351,7 @@ const jobDescription = props => {
                                   value={value}
                                   onChange={setValue}
                                   defaultCountry={country}
+                                  required
                                 />
                               </div>
 
