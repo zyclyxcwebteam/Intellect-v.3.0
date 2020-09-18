@@ -57,7 +57,7 @@
   padding: 0.5rem 0.2rem;
 }
 .h-title-dark {
-  background-color: #0c314b;
+  background-color: #1e6da2;
 }
 .h-title-green {
   background-color: #8d1b3d;
@@ -81,13 +81,13 @@
 }
 .h-top {
   bottom: 70px;
-  background-color: hsl(205, 72%, 87%);
+  background-color: hsl(204, 69%, 88%);
   padding: 1rem;
 }
 .h-bottom {
   top: 70px;
   padding: 1rem;
-  background-color: hsl(342, 68%, 85%);
+  background-color: hsl(342, 68%, 88%);
 }
 .h-bottom:nth-child(odd) {
   background-color: hsl(205, 72%, 90%);
