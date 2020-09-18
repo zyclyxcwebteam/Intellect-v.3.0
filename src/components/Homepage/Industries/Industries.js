@@ -26,19 +26,19 @@ const IndustryData = [
     img: hospitalityImg,
     title: "Hospitality Industry",
     text:
-      "Our immense expertise in the hospitality industry ensures that we contribute to improving the performance and satisfaction of our clients. We work across various platforms like Point-of-Sale (POS) apps, CRM systems, Infrastructure services, enterprise systems, and more. These aim to transform your business operations to provide excellent customer experiences.",
+      "Our immense expertise in the hospitality industry ensures that we contribute to improving the performance and satisfaction of our clients. We work across various platforms like end to end Infra services, contactless checkin solutions, HSIA system, structured cabling and more. These aim to transform your business operations to provide excellent customer experiences.",
   },
   {
     img: healthImg,
     title: "HealthCare Industry",
     text:
-      "As it is one of the fastest-growing industries, we understand this sector needs to deal with numerous advancements as well as modern techniques. Keeping this in mind, we provide the healthcare sectors with task-driven solutions to improve their accuracy and enhance their medicinal workflow. Our team develops a wide range of scalable, cost-effective, and robust applications",
+      "As it is one of the fastest-growing industries, we understand this sector needs to deal with numerous advancements as well as modern techniques. Keeping this in mind, we provide the healthcare sectors with task-driven solutions to improve their accuracy and enhance their medicinal workflow. Our team develops a wide range of scalable, cost-effective, and robust applications.",
   },
   {
     img: logisticsImg,
     title: "Logistics Industry",
     text:
-      "Our team understands the constant pressure businesses have to reduce overhead. We offer you valuable automation solutions like Smart Documentation, Shipment Tracking, Inventory Control, Order Processing, Shipment status communication This ensures your employees can dedicate their efforts to more important tasks.",
+      "We understand the constant pressure faced by this sector to reduce overheads. Some of our automation solutions like Smart Documentation, Shipment Tracking, Inventory Control, Order Processing, Shipment status communication, etc., do just that. All of it is to ensure your employees can dedicate their valuable efforts to other important tasks.",
   },
   {
     img: retailImg,

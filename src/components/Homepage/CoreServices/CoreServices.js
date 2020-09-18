@@ -19,7 +19,7 @@ const items = [
   {
     img: NewAgeBG,
     serviceText:
-      "Artificial intelligence is a branch that allows creating smart machines based on the principle of human intelligence. Our team of AI experts works on machines to help them mimic and execute tasks, from the simplest to complex. It aims to include learning, reasoning, and perception.",
+      "The smart machines developed through Artificial Intelligence work on the human intelligence concept. Our team works to make them imitate and perform functions ranging from the easiest to the most complex, which involves thinking, reasoning, and understanding.",
     captionOne: "Embrace the future with",
     captionTwo: "Artificial Intelligence",
     imgLeft: true,
@@ -29,7 +29,7 @@ const items = [
   {
     img: RPABG,
     serviceText:
-      "Robotic Process Automation automates repetitive human tasks by developing an interface with current IT systems without any complex integrations. We assist you to minimize operating costs and optimize performance by innovating, inventing and automating high-quality business processes.",
+      "Robotic Process Automation involves the development of an interface involving the current IT Systems to automate repetitive human tasks without any complex integrations. We innovate, invent, and automate high-quality business processes to optimize your operational performance and minimize your costs.",
     captionOne: "Transform your business with",
     captionTwo: "Robotic Process Automation",
     imgLeft: false,
@@ -39,7 +39,7 @@ const items = [
   {
     img: OCRBG,
     serviceText:
-      "The OCR technology converts virtually any kind of documents, such as scanned paper documents, PDF files, or images captured by a digital camera into machine-readable text data which is editable and searchable. It saves you a lot of time and effort when creating, processing, and repurposing various documents.",
+      "This technology caters to the virtual conversion of any kind of documents into machine-readable text data which can be edited and searched. These documents include PDF files, scanned paper documents, or images captured by a digital camera. Adapting this process will save your organization time and effort required for creating, processing, and repurposing various documents",
     captionOne: "Adopt smart solutions with",
     captionTwo: "Optical Character Recognition",
     imgLeft: true,

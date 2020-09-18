@@ -24,7 +24,7 @@ const WelcomeText = () => {
               We have been catering to clients from a broad spectrum of
               industries. So if you are looking to improve your business
               efficiency or accelerate revenue growth, we will go the extra mile
-              to get you there..
+              to get you there.
             </p>
           </Col>
         </Row>
