@@ -66,3 +66,12 @@
   background-position: center center;
   background-size: contain;
 }
+@media (max-width: 576px) {
+  .mission-text-container {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .mission-img-container {
+    margin-top: 0px;
+  }
+}
