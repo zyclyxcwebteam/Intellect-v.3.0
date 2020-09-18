@@ -27,12 +27,8 @@ const MissionAndVision = () => {
               </h2>
               <p className="text-justify px-5">
                 {showMission
-                  ? `To offer custom solutions to Clients using unique combination of
-                data science, amazing design philosophy, software engineering,
-                and architecture.`
-                  : `To provide diverse solutions in the area of Futuristic IT development with a strong commitment towards corporate citizenship and sustainability.
-
-                  `}
+                  ? `To offer custom solutions to Clients using unique combination of data science, amazing design philosophy, software engineering, and architecture.`
+                  : `To provide diverse solutions in the area of Futuristic IT development with a strong commitment towards corporate citizenship and sustainability.`}
               </p>
             </div>
           </Col>

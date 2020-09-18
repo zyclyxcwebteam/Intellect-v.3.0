@@ -52,25 +52,25 @@ const aboutus = () => {
       <Container fluid className="py-md-5 py-3 overview-wrapper">
         <Container className="py-md-4 py-2">
           <p>
-            INTELLECT Technologies is the world&apos;s leading automated IT
-            solution provider with a diverse range of solutions aimed to enhance
-            your operating performance. Our expertise includes Robotic Process
-            Automation, AI, OCR, Network Security, Cyber Security, Outsourcing,
-            and other services.
+            INTELLECT is a technology-driven and customer-focused consulting
+            firm which was established in the year 2019. Our diverse range of
+            solutions are a unique combination of data science, amazing design
+            philosophy, software engineering, and architecture. We get to the
+            root of the clients’ problems to offer them effective solutions.
           </p>
           <p>
-            In 2018, we were established to share our innovative solutions and
-            core technology expertise to optimize the customer experience. The
-            team at INTELLECT Technologies provides efficient integrated systems
-            after meticulous evaluation of risks and opportunities which address
-            both short and long term challenges.
+            The team at INTELLECT comprises highly skilled professionals with
+            expertise in different domains like Banking and Finance, Healthcare,
+            Infrastructure, Outsourcing services and more, with them on board
+            you can be assured of quality output. We provide complete project
+            management support right from conceptualization to implementation
+            and assessment.
           </p>
           <p>
-            In collaboration with internationally recognized IT solution
-            providers, we have catered to some of the leading brands in
-            industries like Banking, Finance, Telecom, and more. We provide
-            complete project management support right from conceptualization to
-            implementation and assessment.
+            In partnership with globally recognized IT solution providers, we
+            have successfully delivered projects for some of the renowned
+            brands. Going above and beyond our boundaries to ensure that your
+            needs are not just met, but exceeded.
           </p>
         </Container>
       </Container>
