@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 // import Mission from "../../../../static/images/mission2.svg";
 // import Vision from "../../../../static/images/focus2.svg";
-import Mission from "../../../../static/images/aboutus/mission.svg";
-import Vision from "../../../../static/images/aboutus/vision.svg";
+// import Mission from "../../../../static/images/aboutus/mission.svg";
+// import Vision from "../../../../static/images/aboutus/vision.svg";
 import "./MissionAndVision.css";
 
 const MissionAndVision = () => {
@@ -16,16 +16,21 @@ const MissionAndVision = () => {
           <Col
             md="6"
             sm="12"
-            className="d-none d-md-flex mission-img-container h-100 d-flex justify-content-center align-items-center"
+            className="d-none d-md-flex  h-100 d-flex justify-content-center align-items-center"
           >
-            <img src={showMission ? Mission : Vision} alt="Mission" />
+            <div
+              className={`mission-img-container ${
+                showMission ? "mission" : "vision"
+              }`}
+            />
+            {/* <img src={showMission ? Mission : Vision} alt="Mission" /> */}
           </Col>
           <Col md="6" sm="12">
-            <div className="mission-text-container py-5 mx-5">
+            <div className="mission-text-container py-5 mx-5 px-4">
               <h2 className="text-center pb-4">
                 {showMission ? "Mission" : "Vision"}
               </h2>
-              <p className="text-justify px-5">
+              <p className="px-5 text-justify">
                 {showMission
                   ? `To offer custom solutions to Clients using unique combination of data science, amazing design philosophy, software engineering, and architecture.`
                   : `To provide diverse solutions in the area of Futuristic IT development with a strong commitment towards corporate citizenship and sustainability.`}

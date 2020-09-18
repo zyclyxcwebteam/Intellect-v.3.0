@@ -38,17 +38,31 @@
 .mission-img-container {
   margin-top: 70px;
   min-height: 300px;
+  width: 100%;
 }
 .mission-text-container {
   background-color: #1c0722;
   border-radius: 0.6rem;
   color: #fff;
   box-shadow: 0 0 10px 1px #321e7b;
+  font-size: 1.2rem;
 }
 .mission-space {
   position: absolute;
-  height: 70px;
+  height: 60px;
   width: 100%;
   top: 0;
   background-color: #fff;
+}
+.mission {
+  background-image: url("/images/aboutus/mission4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.vision {
+  background-image: url("/images/aboutus/vision.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
