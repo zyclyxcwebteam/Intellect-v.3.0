@@ -43,13 +43,16 @@ const JobOpenings = () => {
   const [openings, setOpenings] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("https://admin-zyclyx.herokuapp.com/job-openings?Status=open")
+    fetch(
+      "https://admin-zyclyx.herokuapp.com/job-openings?Status=open&Location=Hyderabad, India"
+    )
       .then(response => {
         return response.json();
       })
       .then(jsonData => {
         setLoading(false);
         setOpenings(jsonData);
+        // console.log(jsonData);
       });
   }, [openings]);
   return (
