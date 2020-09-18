@@ -67,15 +67,15 @@ const Footer = () => {
           <Col sm="12" md="4" className="privacy px-0">
             <ul className="py-1 ml-auto">
               <li>
-                <a href="/contactus" title="contactus">
-                  Contact us
+                <a href="/privacy" title="privacy">
+                  Privacy
                 </a>
               </li>
-              {/* <li>
-                <a href="/" title="Terms">
+              <li>
+                <a href="/terms" title="Terms">
                   Terms
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a href="/sitemap" title="sitemap">
                   Sitemap
