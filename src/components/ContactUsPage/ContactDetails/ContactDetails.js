@@ -11,7 +11,7 @@ const ContactDetails = () => {
           <Col
             sm="12"
             md="4"
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-md-center py-3 py-md-1"
           >
             <div className="contact-icon mx-4">
               <FontAwesomeIcon icon="map-marked-alt" />
@@ -27,7 +27,7 @@ const ContactDetails = () => {
           <Col
             sm="12"
             md="4"
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-md-center py-3 py-md-1"
           >
             <div className="contact-icon mx-4">
               <FontAwesomeIcon icon="phone" />
@@ -40,7 +40,7 @@ const ContactDetails = () => {
           <Col
             sm="12"
             md="4"
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-md-center py-3 py-md-1"
           >
             <div className="contact-icon mx-4">
               <FontAwesomeIcon icon="envelope" />
