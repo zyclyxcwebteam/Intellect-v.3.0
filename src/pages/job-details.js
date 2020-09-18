@@ -41,16 +41,20 @@ const jobDescription = props => {
     formBtn: true,
   });
   // const [phone, setPhone] = useState(null);
-  const [country, setCountry] = useState("");
   const [value, setValue] = useState();
+  const [country, setCountry] = useState("");
 
   useEffect(() => {
-    fetch("http://ip-api.com/json/")
+    // fetch("http://ip-api.com/json/")
+    // fetch("https://freegeoip.app/json/")
+    fetch(
+      "https://api.ipgeolocation.io/ipgeo?apiKey=16c06a48afce45e5a1c1427e1c4b628f"
+    )
       .then(res => {
         return res.json();
       })
       .then(data => {
-        setCountry(data.countryCode);
+        setCountry(data.country_code2);
       });
   }, []);
 
@@ -80,21 +84,21 @@ const jobDescription = props => {
   const onSubmit = (data, event) => {
     setSubmitForm(true);
     const payload = {
-      firstname: data.firstname,
-      lastname: data.lastname,
-      email: data.email,
-      phone: formatPhoneNumberIntl(value),
-      subject: data.message,
-      position: jobDetails.Title,
-      website: "intellect",
-      country_code: parsePhoneNumber(value)
+      Firstname: data.firstname,
+      Lastname: data.lastname,
+      Email: data.email,
+      Phone: formatPhoneNumberIntl(value),
+      Message: data.message,
+      Position: jobDetails.Title,
+      Website: "intellect",
+      Country_Code: parsePhoneNumber(value)
         ? parsePhoneNumber(value).country
         : "",
-      date: new Date(),
+      Date: new Date(),
     };
 
     // store form data in db
-    fetch("https://zyclyx-backend-api.herokuapp.com/job-applications/", {
+    fetch("https://admin-zyclyx.herokuapp.com/job-applications/", {
       method: "post",
       body: JSON.stringify(payload),
     })
@@ -113,10 +117,10 @@ const jobDescription = props => {
         const fileData = new FormData();
         fileData.append("files", resumeFile);
         fileData.append("refId", jsondata.id);
-        fileData.append("field", "resume");
+        fileData.append("field", "Resume");
         fileData.append("ref", "job-applications");
 
-        fetch("https://zyclyx-backend-api.herokuapp.com/upload/", {
+        fetch("https://admin-zyclyx.herokuapp.com/upload/", {
           method: "post",
           body: fileData,
         }).then(res => {
@@ -213,6 +217,7 @@ const jobDescription = props => {
             {display.showReq ? (
               <>
                 <div className="py-4">
+                  <h3 className="py-3">Requirements</h3>
                   {jobDetails &&
                     jobDetails.Requirements.split("\n").map(data => {
                       return (
