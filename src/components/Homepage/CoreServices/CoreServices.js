@@ -54,7 +54,7 @@ const items = [
     captionTwo: "Infrastructure Services",
     imgLeft: false,
     key: 4,
-    linkTo: "/network-security",
+    linkTo: "/",
   },
 ];
 
