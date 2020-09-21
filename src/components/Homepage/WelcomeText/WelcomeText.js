@@ -20,11 +20,11 @@ const WelcomeText = () => {
               combination of an agile collaborative approach and next-gen
               technologies aimed to enhance your business performance. At
               INTELLECT, our deep expertise in the area of process automation,
-              infrastructure, and application management is our strategic asset.
-              We have been catering to clients from a broad spectrum of
-              industries. So if you are looking to improve your business
-              efficiency or accelerate revenue growth, we will go the extra mile
-              to get you there.
+              infra services, staffing and application management is our
+              strategic asset. We have been catering to clients from a broad
+              spectrum of industries. So if you are looking to improve your
+              business efficiency or accelerate revenue growth, we will go the
+              extra mile to get you there.
             </p>
           </Col>
         </Row>

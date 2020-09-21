@@ -49,9 +49,9 @@ const items = [
   {
     img: NetworkBG,
     serviceText:
-      "When you have to work in a world of devious cybercriminals, it’s important to ensure that your network and data are safe. We at INTELLECT use a combination of effective hardware and software solutions to protect you from multiple layers of intrusions and breaches.",
-    captionOne: "Effective Data protection with",
-    captionTwo: "Network Security",
+      "Adopt Infrastructure services to ensure that you can spontaneously scale up or down depending on the usage demand. We offer a variety of services to cater to your varying infra needs like contact center, Storage services, data center services, and more. It helps you avoid unnecessary expenses and saves you from the complexity of managing your infrastructure.",
+    captionOne: "Get dynamic solutions with",
+    captionTwo: "Infrastructure Services",
     imgLeft: false,
     key: 4,
     linkTo: "/network-security",
