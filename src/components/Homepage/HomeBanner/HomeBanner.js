@@ -10,7 +10,7 @@ import "./HomeBanner.css";
 // import Automation from "../../../../static/images/home-banner/manufacturing.svg";
 // import Fuel from "../../../../static/images/home-banner/project.svg";
 // import Solution from "../../../../static/images/home-banner/innovation.svg";
-import Automation from "../../../../static/images/home-banner/4.png";
+import Automation from "../../../../static/images/home-banner/8.svg";
 import Fuel from "../../../../static/images/home-banner/5.png";
 import Solution from "../../../../static/images/home-banner/6.png";
 
