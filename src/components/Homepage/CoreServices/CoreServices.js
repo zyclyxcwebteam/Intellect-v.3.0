@@ -11,7 +11,7 @@ import {
 import "./CoreServices.css";
 import SectionTitle from "../../SectionTitle/SectionTitle";
 import NewAgeBG from "../../../../static/images/services/4.png";
-import NetworkBG from "../../../../static/images/services/NETWORK.png";
+import NetworkBG from "../../../../static/images/services/Infra.png";
 import RPABG from "../../../../static/images/services/RPA.png";
 import OCRBG from "../../../../static/images/services/OCR.png";
 
