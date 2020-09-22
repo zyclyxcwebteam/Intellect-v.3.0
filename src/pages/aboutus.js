@@ -27,7 +27,7 @@ const aboutus = () => {
             <h2 className="banner-title">
               A Fast-Growing Technology Leader in
             </h2>
-            <h2 className="banner-title title-green">
+            <h2 className="banner-title title-highlight">
               <RotatingText
                 items={[
                   "Artificial Intelligence",
