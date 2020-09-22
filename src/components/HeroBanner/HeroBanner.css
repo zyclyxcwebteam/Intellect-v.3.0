@@ -107,7 +107,6 @@
 } /* ==== Inner page banners ==== */
 .contact {
   background-image: url("/images/contact.png");
-  /* background-image: url("/images/contactus3.svg"); */
 }
 
 .career {
@@ -126,7 +125,8 @@
   background-image: url("/images/service-pages/ai-new.svg");
 }
 .ai-sol {
-  background-image: url("/images/service-pages/16-sol.png");
+  /* background-image: url("/images/service-pages/16-sol.png"); */
+  background-image: url("/images/service-pages/ai-sol.svg");
 }
 
 /* 3. Optical Character Recognition */
@@ -135,7 +135,8 @@
   background-image: url("/images/service-pages/ocr.svg");
 }
 .ocr-sol {
-  background-image: url("/images/service-pages/15-sol.png");
+  /* background-image: url("/images/service-pages/15-sol.png"); */
+  background-image: url("/images/service-pages/ocr-sol.svg");
 }
 
 /* 4. Blockchain */
@@ -144,7 +145,8 @@
   background-image: url("/images/service-pages/blockchain.svg");
 }
 .blockchain-sol {
-  background-image: url("/images/service-pages/9-sol.svg");
+  /* background-image: url("/images/service-pages/9-sol.svg"); */
+  background-image: url("/images/service-pages/blockchain-sol.svg");
 }
 
 /* 6. Bigdata */
@@ -153,16 +155,18 @@
   background-image: url("/images/service-pages/bigdata.svg");
 }
 .bigdata-sol {
-  background-image: url("/images/service-pages/17-sol.png");
+  /* background-image: url("/images/service-pages/17-sol.png"); */
+  background-image: url("/images/service-pages/bigdata-sol.svg");
 }
 
 /* 13. software development */
 .software {
   /* background-image: url("/images/service-pages/1.png"); */
-  background-image: url("/images/service-pages/software-new2.svg");
+  background-image: url("/images/service-pages/software.svg");
 }
 .software-sol {
-  background-image: url("/images/service-pages/14-sol.png");
+  /* background-image: url("/images/service-pages/14-sol.png"); */
+  background-image: url("/images/service-pages/software-sol.svg");
 }
 /* 14. Mobile app development */
 .mobile {
@@ -176,19 +180,21 @@
 /* 17. Outsourcing */
 .outsource {
   /* background-image: url("/images/service-pages/24.png"); */
-  background-image: url("/images/service-pages/outsource-new2.svg");
+  background-image: url("/images/service-pages/outsource.svg");
 }
 .outsource-sol {
-  background-image: url("/images/service-pages/12-sol.jpg");
+  /* background-image: url("/images/service-pages/12-sol.jpg"); */
+  background-image: url("/images/service-pages/outsourcing-sol.svg");
 }
 
 /* 19. System Infra */
 .infra {
-  background-image: url("/images/service-pages/15.png");
+  /* background-image: url("/images/service-pages/15.png"); */
   background-image: url("/images/service-pages/system-infra.svg");
 }
 .infra-sol {
-  background-image: url("/images/service-pages/18-sol.png");
+  /* background-image: url("/images/service-pages/18-sol.png"); */
+  background-image: url("/images/service-pages/system-infra-sol.svg");
 }
 
 /* 20. End user computing */
@@ -197,13 +203,14 @@
   background-image: url("/images/service-pages/end-user.svg");
 }
 .enduser-sol {
-  background-image: url("/images/service-pages/11-sol.jpg");
+  /* background-image: url("/images/service-pages/11-sol.jpg"); */
+  background-image: url("/images/service-pages/end-user-sol.svg");
 }
 
 /* Cloud Services */
 .cloud-service {
   /* background-image: url("/images/service-pages/cloud-service.png"); */
-  background-image: url("/images/service-pages/cloud-new2.svg");
+  background-image: url("/images/service-pages/cloud.svg");
 }
 .cloud-service-sol {
   background-image: url("/images/service-pages/cloud-service-sol.png");
@@ -230,7 +237,8 @@
   background-image: url("/images/service-pages/network-and-telecom.svg");
 }
 .network-and-telecom-sol {
-  background-image: url("/images/service-pages/network-and-telecom.svg");
+  /* background-image: url("/images/service-pages/network-and-telecom.svg"); */
+  background-image: url("/images/service-pages/network-telecom-sol.svg");
 }
 
 /* Storage Service */
@@ -248,7 +256,8 @@
   background-image: url("/images/service-pages/cyber-new.svg");
 }
 .cyber-security-sol {
-  background-image: url("/images/service-pages/cyber-security-sol.jpg");
+  /* background-image: url("/images/service-pages/cyber-security-sol.jpg"); */
+  background-image: url("/images/service-pages/cyber-sol.svg");
 }
 /* Network Security */
 .network-security {
@@ -256,7 +265,7 @@
   background-image: url("/images/service-pages/network-security.svg");
 }
 .network-security-sol {
-  background-image: url("/images/service-pages/network-security-sol.jpg");
+  background-image: url("/images/service-pages/network-sec-sol.svg");
 }
 /* Data Center */
 .data-center {
@@ -269,10 +278,10 @@
 }
 /* IOT */
 .iot {
-  background-image: url("/images/service-pages/iot.png");
+  background-image: url("/images/service-pages/iot-sol.svg");
 }
 .iot-sol {
-  background-image: url("/images/service-pages/iot-sol.svg");
+  background-image: url("/images/service-pages/iot.png");
 }
 
 /* 1. Robotic Process Automation */
