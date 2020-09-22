@@ -16,7 +16,7 @@
   color: #19132a;
 }
 .title-highlight {
-  color: #4d77a3;
+  color: #4d77a3 !important;
 }
 /* .mission-outer {
   position: relative;
