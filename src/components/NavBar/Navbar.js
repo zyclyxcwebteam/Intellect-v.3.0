@@ -56,7 +56,7 @@ const Header = props => {
               </DropdownToggle>
               <DropdownMenu className="w-100 py-1 py-md-3 px-2 px-md-5 mt-0 service-dropdown">
                 <Row>
-                  <Container className="align-items-top px-5">
+                  <Container className="align-items-top px-md-5 px-2">
                     <Col sm="12" md="3" className="service-menu">
                       <h4 className="menu-title">New Age Technologies</h4>
                       <ul>
