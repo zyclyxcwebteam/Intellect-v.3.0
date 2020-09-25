@@ -283,7 +283,7 @@ const jobDescription = props => {
                                     className="form-control"
                                     name="firstname"
                                     pattern="[a-zA-Z\s]{2,30}"
-                                    placeholder="Firstname"
+                                    placeholder="First Name"
                                     autoComplete="off"
                                     ref={register({ required: true })}
                                   />
@@ -306,7 +306,7 @@ const jobDescription = props => {
                                     className="form-control"
                                     name="lastname"
                                     pattern="[a-zA-Z\s]{2,30}"
-                                    placeholder="Lastname"
+                                    placeholder="Last Name"
                                     autoComplete="off"
                                     ref={register({ required: true })}
                                   />
