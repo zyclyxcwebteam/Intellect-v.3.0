@@ -24,6 +24,7 @@ const items = [
     captionTwo: "Artificial Intelligence",
     imgLeft: true,
     key: 1,
+    link: true,
     linkTo: "/artificial-intelligence",
   },
   {
@@ -34,6 +35,7 @@ const items = [
     captionTwo: "Robotic Process Automation",
     imgLeft: false,
     key: 2,
+    link: true,
     linkTo: "/robotic-process-automation",
   },
   {
@@ -44,6 +46,7 @@ const items = [
     captionTwo: "Optical Character Recognition",
     imgLeft: true,
     key: 3,
+    link: true,
     linkTo: "/optical-character-recognition",
   },
   {
@@ -54,6 +57,7 @@ const items = [
     captionTwo: "Infrastructure Services",
     imgLeft: false,
     key: 4,
+    link: false,
     linkTo: "/",
   },
 ];
@@ -105,11 +109,17 @@ const OurServices = () => {
                 {item.captionTwo}
               </h2>
               <p className="px-md-5 px-2 text-justify">{item.serviceText}</p>
-              <p className="text-center mt-md-5">
-                <Link to={item.linkTo} className="service-link text-center">
-                  Discover More
-                </Link>
-              </p>
+              {item.link && (
+                <p className="text-center mt-md-5">
+                  <Link
+                    to={item.linkTo}
+                    className="service-link text-center"
+                    rel="canonical"
+                  >
+                    Discover More
+                  </Link>
+                </p>
+              )}
             </div>
           </Col>
         </Row>
