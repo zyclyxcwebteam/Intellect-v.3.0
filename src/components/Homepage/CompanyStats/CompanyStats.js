@@ -11,7 +11,7 @@ const StatsCard = props => {
     <Col sm={12} md={4}>
       <div className="d-flex flex-column justify-content-center align-items-center shadow shadow-lg p-md-4 p-3 my-md-0 my-3 rounded-lg stats">
         <div className="d-flex align-items-center justify-content-center">
-          <img src={icon} alt="clients" className={`${animation}`} />
+          <img src={icon} alt={text} className={`${animation}`} />
           <div className="d-flex flex-column py-3">
             <h3 className="stat-title text-center">{`${number}+`}</h3>
           </div>

@@ -52,7 +52,7 @@ const settings = {
 const CoreValueCard = ({ title, text, icon }) => {
   return (
     <div className="card m-4 p-2">
-      <img className="card-img-top p-5 " src={icon} alt="Card cap" />
+      <img className="card-img-top p-5 " src={icon} alt={title} />
       <div className="card-body">
         <h4 className="card-title text-center">{title}</h4>
         <p className="card-text text-center">{text}</p>

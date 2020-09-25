@@ -21,15 +21,23 @@ import AntLabs from "../../../../static/images/clients/10.png";
 import Lenovo from "../../../../static/images/clients/11.png";
 import TrustPortal from "../../../../static/images/clients/12.png";
 
-const CLIENTS = [Bayancb, Elm, Stcs, ValueMomentum, Monster, RedTag];
+// const CLIENTS = [Bayancb, Elm, Stcs, ValueMomentum, Monster, RedTag];
+const CLIENTS = [
+  { name: "bayan cb", img: Bayancb },
+  { name: "elm", img: Elm },
+  { name: "stcs", img: Stcs },
+  { name: "value momentum", img: ValueMomentum },
+  { name: "monster", img: Monster },
+  { name: "red tag", img: RedTag },
+];
 const PARTNERS = [
-  Blueprism,
-  UIpath,
-  Automation,
-  Microsoft,
-  AntLabs,
-  Lenovo,
-  TrustPortal,
+  { name: "blue prism", img: Blueprism },
+  { name: "UI Path", img: UIpath },
+  { name: "Automation anywhere", img: Automation },
+  { name: "Microsoft", img: Microsoft },
+  { name: "Ant Labs", img: AntLabs },
+  { name: "Lenovo", img: Lenovo },
+  { name: "Trust Portal", img: TrustPortal },
 ];
 
 const settings = {
@@ -76,7 +84,7 @@ const Carousel = ({ itemsArray }) => {
       {itemsArray.map(item => {
         return (
           <div>
-            <img src={item} alt="" className="client" />
+            <img src={item.img} alt={item.name} className="client" />
           </div>
         );
       })}
