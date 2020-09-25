@@ -44,7 +44,7 @@ const Terms = () => {
             assistance to the Client in the most appropriate manner for the
             express purpose of meeting the Client’s needs in respect of
             provision of the Company’s stated services, in accordance with and
-            subject to, prevailing law of Netherlands. Any use of the above
+            subject to, prevailing law of Qatar. Any use of the above
             terminology or other words in the singular, plural, capitalization
             and/or he/she or they, are taken as interchangeable and therefore as
             referring to same.
@@ -253,7 +253,7 @@ const Terms = () => {
           </h3>
 
           <p>
-            We shall not be hold responsible for any content that appears on
+            We shall not be held responsible for any content that appears on
             your Website. You agree to protect and defend us against all claims
             that is rising on your Website. No link(s) should appear on any
             Website that may be interpreted as libelous, obscene or criminal, or
@@ -275,9 +275,9 @@ const Terms = () => {
             We reserve the right to request that you remove all links or any
             particular link to our Website. You approve to immediately remove
             all links to our Website upon request. We also reserve the right to
-            amen these terms and conditions and it’s linking policy at any time.
-            By continuously linking to our Website, you agree to be bound to and
-            follow these linking terms and conditions.
+            amend these terms and conditions and it’s linking policy at any
+            time. By continuously linking to our Website, you agree to be bound
+            to and follow these linking terms and conditions.
           </p>
 
           <h3>
