@@ -231,12 +231,12 @@ const Contact = () => {
                 id="mymap-display"
                 style={{ height: "100%", width: "100%", maxWidth: "100%" }}
               >
-                <iframe
+                {/* <iframe
                   style={{ height: "100%", width: "100%", border: 0 }}
                   title="INTELLECT Technologies"
                   frameBorder="0"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7213.451362497201!2d51.518291!3d25.313419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x614e24d824b8c339!2sServcorp%20Commercial%20Bank%20Plaza%20-%20Coworking%2C%20Offices%2C%20Virtual%20Offices%20%26%20Meeting%20Rooms!5e0!3m2!1sen!2sin!4v1576837668959!5m2!1sen!2sin"
-                />
+                /> */}
               </div>
               <a
                 className="googlemaps-code"
@@ -246,6 +246,14 @@ const Contact = () => {
               >
                 https://www.embed-map.com
               </a>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14426.90168885876!2d51.5182265!3d25.3134277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc13f26eb8cd56046!2sIntellect%20Technologies!5e0!3m2!1sen!2sin!4v1601026847046!5m2!1sen!2sin"
+                frameBorder="0"
+                style={{ height: "100%", width: "100%", border: 0 }}
+                title="INTELLECT Technologies"
+                allowFullScreen=""
+                aria-hidden="false"
+              />
             </div>
           </Col>
         </Row>
