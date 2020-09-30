@@ -44,7 +44,7 @@ const SEO = ({ description, title }) => {
         },
         {
           name: "google-site-verification",
-          content: "it1dJOHrz1MxZWjHi968GpJ0o1eOUhyEC2byh2Ehz6g",
+          content: "google1c4ad14cef08de21.html",
         },
       ]}
     />
